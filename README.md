@@ -1,2 +1,2 @@
 # OpenRover
-Open Source HVS for geiger counters.
+Open Source HVPS for geiger counters.
