@@ -335,9 +335,9 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "OpenRover.dsn",
       "step": "",
-      "vrml": ""
+      "vrml": "OpenRover.wrl"
     },
     "page_layout_descr_file": ""
   },
