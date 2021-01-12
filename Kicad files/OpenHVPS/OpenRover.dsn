@@ -24,8 +24,8 @@
       (path pcb 0  136000 -100000  100000 -100000  100000 -64000  136000 -64000
             136000 -100000)
     )
-    (plane GND (polygon F.Cu 0  137500 -101400  98700 -101400  98700 -63600  138000 -62800
-            137500 -101400))
+    (plane GND (polygon F.Cu 0  136280 -100590  99370 -100590  99370 -63060  136280 -63060
+            136280 -100590))
     (keepout "" (polygon signal 0  131876 -86505.1  131632 -86545.9  131397 -86626.3  131180 -86744.2
             130984 -86896.4  130816 -87078.7  130681 -87286.1  130581 -87513
             130520 -87753.1  130500 -88000  130520 -88246.9  130581 -88487
@@ -66,13 +66,13 @@
   )
   (placement
     (component Resistor_SMD:R_0805_2012Metric
-      (place R21 123204 -97500 front -90 (PN 47k))
+      (place R21 115570 -95770 front 180 (PN 47k))
     )
     (component Resistor_SMD:R_0805_2012Metric::1
       (place C5 119000 -65000 front 0 (PN 0.1))
     )
     (component Resistor_SMD:R_0805_2012Metric::2
-      (place R13 128582 -82800 front -90 (PN 100))
+      (place R13 121422 -85410 front 180 (PN 100))
     )
     (component "Package_TO_SOT_SMD:SOT-23"
       (place D6 130500 -68000 front 90 (PN BAV23))
@@ -81,85 +81,85 @@
       (place D2 116500 -68000 front 90 (PN BAV23))
     )
     (component "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-      (place Q3 116800 -94300 front 90 (PN MMDT3906))
+      (place Q3 108140 -97740 front 90 (PN MMDT3906))
     )
     (component Resistor_SMD:R_0805_2012Metric::3
-      (place R18 123120 -93900 front 90 (PN 499k))
+      (place R18 119540 -98140 front 0 (PN 499k))
     )
     (component Resistor_SMD:R_0805_2012Metric::4
       (place C9 126000 -65000 front 0 (PN 0.1))
     )
     (component Capacitor_SMD:C_0805_2012Metric
-      (place C19 121600 -85700 front 0 (PN 1uF))
+      (place C19 120120 -87540 front 0 (PN 1uF))
     )
     (component "Package_TO_SOT_SMD:SOT-23::2"
       (place D1 113000 -68000 front 90 (PN BAV23))
     )
     (component Capacitor_SMD:C_0805_2012Metric::1
-      (place C15 111700 -77200 front 0 (PN 1uF))
+      (place C15 111920 -81120 front 0 (PN 1uF))
     )
     (component Resistor_SMD:R_0805_2012Metric::5
-      (place R3 118900 -73900 front -90 (PN 22M))
+      (place R3 122488 -73500 front 180 (PN 22M))
     )
     (component Resistor_SMD:R_0805_2012Metric::6
       (place C7 122500 -65000 front 0 (PN 0.1))
     )
     (component Capacitor_SMD:C_0805_2012Metric::2
-      (place C20 120400 -97500 front 90 (PN C))
+      (place C20 111840 -98040 front 0 (PN C))
     )
     (component Resistor_SMD:R_0805_2012Metric::7
-      (place R4 121200 -73900 front 90 (PN 22M))
+      (place R4 126900 -73500 front 180 (PN 22M))
     )
     (component Resistor_SMD:R_0805_2012Metric::8
-      (place R11 120950 -82800 front -90 (PN 121k))
+      (place R11 120360 -90250 front 0 (PN 121k))
     )
     (component Resistor_SMD:R_0805_2012Metric::9
-      (place R22 125978 -97500 front 90 (PN 20k))
+      (place R22 115540 -98140 front 0 (PN 20k))
     )
     (component "Package_TO_SOT_SMD:SOT-23::3"
       (place D4 123500 -68000 front 90 (PN BAV23))
     )
     (component "Diode_SMD:D_SOD-123"
-      (place D8 116200 -87650 front 180 (PN 1N4148W))
+      (place D8 115810 -90490 front 0 (PN 1N4148W))
     )
     (component Resistor_SMD:R_0805_2012Metric::10
-      (place R10 110800 -74000 front 90 (PN R))
+      (place R10 112120 -78940 front 0 (PN R))
     )
     (component "Package_TO_SOT_SMD:SOT-23-5"
-      (place U2 130900 -73900 front 0 (PN MAX4162))
+      (place U2 128500 -80600 front 0 (PN MAX4162))
     )
     (component Capacitor_SMD:C_0805_2012Metric::3
-      (place C22 125870 -93900 front 90 (PN C))
+      (place C22 111840 -95720 front 0 (PN C))
     )
     (component "Package_TO_SOT_SMD:SOT-23::4"
       (place D5 127000 -68000 front 90 (PN BAV23))
     )
     (component Capacitor_SMD:C_0805_2012Metric::4
-      (place C18 106300 -65800 front -90 (PN 1uF))
+      (place C18 106300 -65800 front 90 (PN 1uF))
     )
     (component Resistor_SMD:R_0805_2012Metric::11
       (place C10 127000 -71000 front 0 (PN 0.1))
     )
     (component Resistor_SMD:R_0805_2012Metric::12
-      (place R6 125950 -90550 front 180 (PN 560K))
+      (place R6 119440 -95630 front 0 (PN 560K))
     )
     (component "Package_TO_SOT_SMD:SOT-23::5"
-      (place Q2 126200 -87000 front 0 (PN BC846))
+      (place Q2 124620 -89530 front 0 (PN BC846))
     )
     (component Resistor_SMD:R_1206_3216Metric
-      (place R7 134600 -72500 front -90 (PN 4M7))
+      (place R7 134000 -72962.5 front -90 (PN 4M7))
     )
     (component Resistor_SMD:R_0805_2012Metric::13
       (place C1 112000 -65000 front 0 (PN 0.1))
     )
     (component Resistor_SMD:R_0805_2012Metric::14
-      (place R19 128752 -97500 front 90 (PN 1k))
+      (place R19 125490 -85560 front 0 (PN 1k))
     )
     (component Resistor_SMD:R_0805_2012Metric::15
-      (place R5 123500 -73900 front 90 (PN 3.16M))
+      (place R5 130920 -83300 front 0 (PN 3.16M))
     )
     (component Capacitor_SMD:C_0805_2012Metric::5
-      (place C14 133700 -82800 front -90 (PN 0.1))
+      (place C14 123070 -93690 front -90 (PN 0.1))
     )
     (component Resistor_SMD:R_0805_2012Metric::16
       (place C2 113000 -71000 front 0 (PN 0.1))
@@ -171,91 +171,91 @@
       (place C6 120000 -71000 front 0 (PN 0.1))
     )
     (component Resistor_SMD:R_0805_2012Metric::19
-      (place R15 123494 -82800 front 90 (PN 1M49))
+      (place R15 122440 -83180 front 0 (PN 1M49))
     )
     (component "Inductor_SMD:L_Taiyo-Yuden_MD-4040"
-      (place L1 102500 -66500 front -90 (PN 2.2uH))
+      (place L1 102500 -66500 front 0 (PN 2.2uH))
     )
     (component Resistor_SMD:R_0805_2012Metric::20
-      (place R12 120400 -93900 front 90 (PN 33k))
+      (place R12 108840 -94452.5 front 90 (PN 33k))
     )
     (component Resistor_SMD:R_0805_2012Metric::21
-      (place R1 114500 -73900 front 90 (PN 22M))
+      (place R1 112988 -73500 front 0 (PN 22M))
     )
     (component Resistor_SMD:R_0805_2012Metric::22
       (place C12 130588 -71000 front 0 (PN 0.1))
     )
     (component "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-      (place U1 108900 -86600 front -90 (PN 74HC14))
+      (place U1 108530 -88260 front 180 (PN 74HC14))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
       (place J1 102000 -85960 front 0 (PN Conn_01x03_Male))
     )
     (component Resistor_SMD:R_0805_2012Metric::23
-      (place FB1 108400 -65800 front 90 (PN Ferrite_Bead))
+      (place FB1 108610 -65670 front 90 (PN Ferrite_Bead))
     )
     (component Resistor_SMD:R_0805_2012Metric::24
-      (place R2 116700 -73900 front 90 (PN 22M))
+      (place R2 117900 -73500 front 180 (PN 22M))
     )
     (component Resistor_SMD:R_0805_2012Metric::25
-      (place R8 131126 -82800 front -90 (PN 100K))
+      (place R8 132800 -79890 front 0 (PN 100K))
     )
     (component Resistor_SMD:R_0805_2012Metric::26
-      (place R9 131526 -97500 front 90 (PN 100K))
+      (place R9 119350 -93210 front 0 (PN 100K))
     )
     (component Resistor_SMD:R_0805_2012Metric::27
       (place C11 129588 -65000 front 0 (PN 0.1))
     )
     (component Resistor_SMD:R_0805_2012Metric::28
-      (place R14 131400 -93900 front 90 (PN 100k))
+      (place R14 115462 -93400 front 0 (PN 100k))
     )
     (component Resistor_SMD:R_0805_2012Metric::29
       (place C4 116588 -71000 front 0 (PN 0.1))
     )
     (component "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-      (place U3 109500 -95500 front 90 (PN CD14538BM))
+      (place U3 129660 -95580 front 90 (PN CD14538BM))
     )
     (component "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-      (place Q1 105000 -73500 front 0 (PN FQT7N10))
+      (place Q1 104500 -72500 front 0 (PN FQT7N10))
     )
     (component "Package_TO_SOT_SMD:SOT-23::6"
       (place D7 134000 -68000 front 90 (PN BAV23))
     )
     (component "Diode_SMD:D_SOD-123::1"
-      (place D9 116200 -90300 front 180 (PN 1N4148W))
+      (place D9 103440 -97940 front 0 (PN 1N4148W))
     )
     (component Resistor_SMD:R_0805_2012Metric::30
-      (place R16 126038 -82800 front -90 (PN 392k))
+      (place R16 126850 -83280 front 0 (PN 392k))
     )
     (component Capacitor_SMD:C_0805_2012Metric::6
-      (place C21 128650 -93900 front 90 (PN C))
+      (place C21 134090 -82660 front 90 (PN C))
     )
     (component Resistor_SMD:R_0805_2012Metric::31
       (place C13 133000 -65000 front 0 (PN 0.1))
     )
     (component "Package_TO_SOT_SMD:SOT-23::7"
-      (place U4 126700 -73900 front 180 (PN MAX6008AEUR+T))
+      (place U4 123500 -80600 front 180 (PN MAX6008AEUR+T))
     )
     (component Resistor_SMD:R_0805_2012Metric::32
       (place C3 115500 -65000 front 0 (PN 0.1))
     )
     (component Resistor_SMD:R_0805_2012Metric::33
-      (place R17 121600 -88025 front 180 (PN 1M))
+      (place R17 122880 -97560 front -90 (PN 1M))
     )
     (component Resistor_SMD:R_0805_2012Metric::34
-      (place FB2 107000 -68800 front 0 (PN Ferrite_Bead))
+      (place FB2 111208 -76850 front 0 (PN Ferrite_Bead))
     )
     (component Capacitor_SMD:C_1210_3225Metric
-      (place C17 102100 -80375 front 90 (PN 10uF))
+      (place C17 102000 -79500 front -90 (PN 10uF))
     )
     (component Resistor_SMD:R_0805_2012Metric::35
-      (place R20 117000 -98100 front 0 (PN 100k))
+      (place R20 105890 -94412.5 front 90 (PN 100k))
     )
     (component "Package_TO_SOT_SMD:SOT-23::8"
       (place D3 120000 -67937.5 front 90 (PN BAV23))
     )
     (component Capacitor_SMD:C_0805_2012Metric::7
-      (place C16 121600 -90350 front 180 (PN 1nF))
+      (place C16 102240 -94790 front -90 (PN 1nF))
     )
   )
   (library
