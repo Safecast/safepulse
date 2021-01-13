@@ -335,7 +335,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "OpenHVPS.dsn",
+      "specctra_dsn": "OpenRover.dsn",
       "step": "",
       "vrml": "OpenRover.wrl"
     },
