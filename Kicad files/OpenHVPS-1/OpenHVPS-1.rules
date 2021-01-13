@@ -1,5 +1,5 @@
 
-(rules PCB OpenRover
+(rules PCB OpenHVPS-1
   (snap_angle 
     fortyfive_degree
   )
@@ -11,18 +11,18 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 203)
+    (start_pass_no 370)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.0)
+      (against_preferred_direction_trace_costs 4.8)
     )
     (layer_rule B.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.0)
+      (against_preferred_direction_trace_costs 1.3)
     )
   )
   (rule
@@ -53,10 +53,13 @@
     "kicad_default" "Via[0-1]_800:400_um-kicad_default"
   )
   (class default
-    "Net-(C1-Pad2)" "Net-(C2-Pad2)" GND "Net-(C3-Pad2)" "Net-(C4-Pad2)" "Net-(C5-Pad2)" "Net-(C6-Pad2)" "Net-(C7-Pad2)"
-    "Net-(C10-Pad1)" "Net-(C11-Pad1)" "Net-(C10-Pad2)" "Net-(C11-Pad2)" "Net-(C12-Pad2)" "Net-(C13-Pad2)" "Net-(D7-Pad2)" "Net-(D8-Pad2)"
-    "Net-(D8-Pad1)" "Net-(D9-Pad1)" "Net-(D9-Pad2)" "Net-(Q1-Pad1)" "Net-(Q2-Pad3)" "Net-(Q2-Pad1)" "Net-(Q3-Pad1)" "Net-(Q3-Pad2)"
-    "Net-(Q3-Pad5)" "Net-(U2-Pad5)" "Net-(R4-Pad1)" "Net-(R6-Pad2)" "Net-(C15-Pad1)" "Net-(U4-Pad3)" "Net-(C14-Pad1)" "Net-(R8-Pad2)"
+    GND "Net-(C1-Pad2)" "Net-(C2-Pad2)" "Net-(C3-Pad2)" "Net-(C4-Pad2)" "Net-(C5-Pad2)" "Net-(C6-Pad2)" "Net-(C7-Pad2)"
+    "Net-(C10-Pad1)" "Net-(C11-Pad1)" "Net-(C10-Pad2)" "Net-(C11-Pad2)" "Net-(C12-Pad2)" "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(D8-Pad1)"
+    "Net-(D9-Pad1)" "Net-(C13-Pad2)" +3V3 "Net-(C2-Pad1)" "Net-(Q2-Pad3)" "Net-(Q2-Pad1)" "Net-(Q3-Pad1)" "Net-(D9-Pad2)"
+    "Net-(Q3-Pad5)" "Net-(U2-Pad5)" "Net-(R4-Pad1)" +2V5 "Net-(Q1-Pad2)" "Net-(U3-Pad14)" "Net-(U3-Pad10)" "Net-(U3-Pad9)"
+    "Net-(U3-Pad7)" "Net-(C14-Pad1)" "Net-(U4-Pad3)" "Net-(C15-Pad1)" "Net-(R8-Pad2)" "Net-(C16-Pad1)" "Net-(C19-Pad1)" "Net-(C18-Pad1)"
+    "Net-(R1-Pad2)" "Net-(R2-Pad1)" "Net-(R3-Pad1)" "Net-(FB2-Pad2)" "Net-(C20-Pad1)" "Net-(C21-Pad1)" "Net-(C22-Pad1)" "Net-(R21-Pad1)"
+    "Net-(H1-Pad1)"
     (clearance_class default)
     (via_rule default)
     (rule
