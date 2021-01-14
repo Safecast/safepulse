@@ -337,7 +337,7 @@
       "netlist": "",
       "specctra_dsn": "OpenHVPS-1.dsn",
       "step": "",
-      "vrml": "OpenRover.wrl"
+      "vrml": "OpenHVPS-1.wrl"
     },
     "page_layout_descr_file": ""
   },
