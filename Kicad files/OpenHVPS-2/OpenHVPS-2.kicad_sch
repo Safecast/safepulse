@@ -3,10 +3,11 @@
   (paper "A4")
 
   (title_block
-    (title "OpenRover")
-    (date "2021-01-10")
-    (rev "1")
+    (title "SafePulse")
+    (date "2021-01-15")
+    (rev "2.0")
     (company "SafeCast")
+    (comment 1 "Double Sided Version")
   )
 
   (lib_symbols
@@ -3292,21 +3293,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x03_Male") (at 18.415 104.775 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "64fe1763-fce1-4ab1-a949-fbdd5303c0a7")
-    (property "Reference" "J2" (id 0) (at 21.1074 97.7708 0))
-    (property "Value" "Conn_01x03_Male" (id 1) (at 21.107 100.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 18.415 104.775 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 18.415 104.775 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
   (symbol (lib_id "Device:Ferrite_Bead") (at 81.28 28.575 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00006007c915")
@@ -3855,9 +3841,6 @@
     )
     (path "/0c63c58a-8bcb-4bdc-b09f-423326af1a5e"
       (reference "J1") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
-    (path "/64fe1763-fce1-4ab1-a949-fbdd5303c0a7"
-      (reference "J2") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005ffe44be"
       (reference "L1") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_Taiyo-Yuden_MD-4040")

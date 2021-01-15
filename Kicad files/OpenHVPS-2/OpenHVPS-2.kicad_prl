@@ -4,7 +4,7 @@
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "pads": 1.0,
@@ -69,19 +69,6 @@
     "version": 2
   },
   "project": {
-    "files": [
-      {
-        "name": "OpenHVPS-2.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 0,
-          "pos_y": 60,
-          "size_x": 1280,
-          "size_y": 616
-        }
-      }
-    ]
+    "files": []
   }
 }
