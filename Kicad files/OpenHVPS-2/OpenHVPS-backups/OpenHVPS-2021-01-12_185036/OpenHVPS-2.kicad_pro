@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.50114,
-          "height": 2.5,
-          "width": 2.5
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -302,7 +302,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "OpenHVPS-1.kicad_pro",
+    "filename": "OpenHVPS.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -335,9 +335,9 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "OpenHVPS-1.dsn",
+      "specctra_dsn": "OpenRover.dsn",
       "step": "",
-      "vrml": "OpenHVPS-1.wrl"
+      "vrml": "OpenRover.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -364,7 +364,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -372,7 +372,7 @@
   },
   "sheets": [
     [
-      "c7be442d-db47-42c6-8be5-30e06360251d",
+      "0fc89dbf-7b18-4d51-aef6-b689d71e3587",
       ""
     ]
   ],

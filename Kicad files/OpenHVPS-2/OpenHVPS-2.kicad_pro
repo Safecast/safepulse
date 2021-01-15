@@ -302,7 +302,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "OpenHVPS-1.kicad_pro",
+    "filename": "OpenHVPS-2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -335,7 +335,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "OpenHVPS-1.dsn",
+      "specctra_dsn": "OpenHVPS-2.dsn",
       "step": "",
       "vrml": "OpenHVPS-1.wrl"
     },
