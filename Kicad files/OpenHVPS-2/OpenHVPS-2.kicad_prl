@@ -62,18 +62,36 @@
       38
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     "visible_layers": "00290aa_00000001",
     "zone_display_mode": 0
 =======
     "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 1
 >>>>>>> 783bec32c2d54ba545aaba3a22211427013dfa63
+=======
+    "visible_layers": "00290aa_00000001",
+    "zone_display_mode": 0
+>>>>>>> 259982e4ae3b4f5b03be8b48b6d399c996e7ae15
   },
   "meta": {
     "filename": "OpenHVPS-2.kicad_prl",
     "version": 2
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "OpenHVPS-2.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 0,
+          "pos_y": 60,
+          "size_x": 1280,
+          "size_y": 485
+        }
+      }
+    ]
   }
 }
