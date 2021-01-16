@@ -61,8 +61,13 @@
       37,
       38
     ],
+<<<<<<< HEAD
     "visible_layers": "00290aa_00000001",
     "zone_display_mode": 0
+=======
+    "visible_layers": "fffffff_ffffffff",
+    "zone_display_mode": 1
+>>>>>>> 783bec32c2d54ba545aaba3a22211427013dfa63
   },
   "meta": {
     "filename": "OpenHVPS-2.kicad_prl",
