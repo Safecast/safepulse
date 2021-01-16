@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 48,
-    "active_layer_preset": "All Layers",
+    "active_layer": 0,
+    "active_layer_preset": "Front Layers",
     "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -61,22 +61,8 @@
       37,
       38
     ],
-<<<<<<< HEAD
-    "visible_layers": "fffffff_ffffffff",
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "visible_layers": "00290aa_00000001",
->>>>>>> 99a9337adf850d2bfbed5a5b4113a6587b1a5eb9
-    "zone_display_mode": 0
-=======
-    "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 1
->>>>>>> 783bec32c2d54ba545aaba3a22211427013dfa63
-=======
     "visible_layers": "00290aa_00000001",
     "zone_display_mode": 0
->>>>>>> 259982e4ae3b4f5b03be8b48b6d399c996e7ae15
   },
   "meta": {
     "filename": "OpenHVPS-2.kicad_prl",
@@ -94,18 +80,6 @@
           "pos_y": 60,
           "size_x": 1280,
           "size_y": 406
-        }
-      },
-      {
-        "name": "OpenHVPS-2.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 110,
-          "pos_y": 249,
-          "size_x": 1280,
-          "size_y": 590
         }
       }
     ]
