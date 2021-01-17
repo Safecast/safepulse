@@ -2619,7 +2619,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.075)) (justify mirror))
       (tstamp 2cdd4ff1-7108-400e-a0a0-bad84bfa009a)
     )
-    (fp_text value "0.1uF" (at 0 -1.68 180) (layer "B.Fab") hide
+    (fp_text value "150pF" (at 0 -1.68 180) (layer "B.Fab") hide
       (effects (font (size 0.5 0.5) (thickness 0.075)) (justify mirror))
       (tstamp e4118711-c9fc-4684-bdf0-a9ad13e2f687)
     )
