@@ -2661,7 +2661,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.075)) (justify mirror))
       (tstamp d91c5e99-cb97-44e6-abbd-2428782c8635)
     )
-    (fp_text value "1M49" (at 0 -1.65) (layer "B.Fab") hide
+    (fp_text value "1M5" (at 0 -1.65) (layer "B.Fab") hide
       (effects (font (size 0.5 0.5) (thickness 0.075)) (justify mirror))
       (tstamp 9620b589-72a4-4904-9395-3cce5c0045ab)
     )
