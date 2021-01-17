@@ -2691,7 +2691,7 @@
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00006009bd6d")
     (property "Reference" "R5" (id 0) (at 71.12 32.2072 90))
-    (property "Value" "R" (id 1) (at 71.12 34.5186 90))
+    (property "Value" "100" (id 1) (at 71.12 34.519 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 71.12 39.243 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2986,7 +2986,7 @@
     (in_bom yes) (on_board yes)
     (uuid "d360b2ba-8c27-440f-a077-ab04596b2cba")
     (property "Reference" "JP1" (id 0) (at 270.51 104.1208 0))
-    (property "Value" "SolderJumper_2_Open" (id 1) (at 270.51 106.4195 0))
+    (property "Value" "7317" (id 1) (at 270.51 106.42 0))
     (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (id 2) (at 270.51 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3977,7 +3977,7 @@
       (reference "J2") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/d360b2ba-8c27-440f-a077-ab04596b2cba"
-      (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+      (reference "JP1") (unit 1) (value "7317") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/00000000-0000-0000-0000-00005ffe44be"
       (reference "L1") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_Taiyo-Yuden_MD-4040")
@@ -4007,7 +4007,7 @@
       (reference "R4") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00006009bd6d"
-      (reference "R5") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R5") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000060011a2b"
       (reference "R6") (unit 1) (value "121k") (footprint "Resistor_SMD:R_0805_2012Metric")
