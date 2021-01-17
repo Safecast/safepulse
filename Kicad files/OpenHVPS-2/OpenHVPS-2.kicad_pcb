@@ -3864,7 +3864,7 @@
   (gr_text "GND\n" (at 131.318 73.406) (layer "B.SilkS") (tstamp 29d2d140-4483-4cac-aef5-e314c76ea901)
     (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
   )
-  (gr_text "Pulse" (at 127 64.77) (layer "B.SilkS") (tstamp 48d60d6b-05c9-4b46-ab6f-3e2b61ff89e6)
+  (gr_text "Pulse" (at 126.746 64.77) (layer "B.SilkS") (tstamp 48d60d6b-05c9-4b46-ab6f-3e2b61ff89e6)
     (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
   )
   (gr_text "SafePulse V0.9" (at 157.734 60.706) (layer "B.SilkS") (tstamp 4a8a2b27-f599-462f-803d-d79e790af018)
