@@ -33,7 +33,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.0,
+          "drill": 1.0,
           "height": 3.6,
           "width": 3.6
         },
@@ -372,7 +372,7 @@
   },
   "sheets": [
     [
-      "43bff832-596c-4d5b-a4b9-4dea828612fe",
+      "93c294a8-8b1a-4db1-99e8-f6e730b3a4c9",
       ""
     ]
   ],
