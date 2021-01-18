@@ -71,6 +71,18 @@
   "project": {
     "files": [
       {
+        "name": "OpenHVPS_ray.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 110,
+          "pos_y": 431,
+          "size_x": 1280,
+          "size_y": 564
+        }
+      },
+      {
         "name": "OpenHVPS_ray.kicad_pcb",
         "open": false,
         "window": {
@@ -79,19 +91,7 @@
           "pos_x": 0,
           "pos_y": 60,
           "size_x": 1280,
-          "size_y": 563
-        }
-      },
-      {
-        "name": "OpenHVPS_ray.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 110,
-          "pos_y": 327,
-          "size_x": 1280,
-          "size_y": 642
+          "size_y": 458
         }
       }
     ]
