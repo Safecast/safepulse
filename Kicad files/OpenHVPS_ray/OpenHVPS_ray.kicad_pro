@@ -33,7 +33,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.0,
+          "drill": 1.0,
           "height": 3.6,
           "width": 3.6
         },
@@ -372,7 +372,11 @@
   },
   "sheets": [
     [
+<<<<<<< HEAD
       "c20e55ce-5c57-4072-bc6c-d8d665900ceb",
+=======
+      "c939abce-8544-4f12-bef3-0c8210f85409",
+>>>>>>> 91541e7fe71128131b191e60f65477e73078509a
       ""
     ]
   ],
