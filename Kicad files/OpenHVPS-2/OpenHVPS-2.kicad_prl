@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 37,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -65,13 +65,13 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "OpenHVPS-1.kicad_prl",
+    "filename": "OpenHVPS-2.kicad_prl",
     "version": 2
   },
   "project": {
     "files": [
       {
-        "name": "OpenHVPS-1.kicad_pcb",
+        "name": "OpenHVPS-2.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,
