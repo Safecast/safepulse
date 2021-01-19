@@ -3387,7 +3387,7 @@
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 253.695 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C1005X7R1H102K050BA/513719" (id 3) (at 252.73 144.145 0)
+    (property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0805C361J1GAC7800/2212653" (id 3) (at 252.73 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
