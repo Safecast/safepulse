@@ -42,7 +42,7 @@
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
       (usegerberextensions true)
-      (usegerberattributes true)
+      (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
       (svguseinch false)
