@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/rob/Documents/PlatformIO/Projects/OpenRover/Kicad files/OpenHVPS-4/OpenRover-4.kicad_sch</source>
-    <date>Tue 19 Jan 2021 07:30:06 PM JST</date>
+    <date>Thu 21 Jan 2021 07:27:12 PM JST</date>
     <tool>Eeschema 5.99.0-unknown-50e22de3ba~95~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -245,9 +245,9 @@
       <tstamp>743b7e51-503f-44bc-a063-83e91538f340</tstamp>
     </comp>
     <comp ref="D1">
-      <value>BAS16</value>
-      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
-      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <value>BAS16J</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/nexperia-usa-inc/BAS16J135/2405996</datasheet>
       <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
       <property name="Sheet name" value=""/>
       <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
@@ -255,9 +255,9 @@
       <tstamp>00000000-0000-0000-0000-0000600ddc6a</tstamp>
     </comp>
     <comp ref="D2">
-      <value>BAS16</value>
-      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
-      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <value>BAS16J</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/nexperia-usa-inc/BAS16J135/2405996</datasheet>
       <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
       <property name="Sheet name" value=""/>
       <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
@@ -334,6 +334,16 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff60b0e</tstamp>
     </comp>
+    <comp ref="F1">
+      <value>Polyfuse</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/murata-electronics/PRG21BC0R2MM1RA/966726</datasheet>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56f8a695-d95b-413d-8be6-9f4865ee9bab</tstamp>
+    </comp>
     <comp ref="FB1">
       <value>BKP2125HS221-T</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
@@ -384,26 +394,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>cfef5cd8-f134-487a-8cb2-e8668492f6e4</tstamp>
     </comp>
-    <comp ref="J2">
-      <value>Conn_01x03_Male</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>0c63c58a-8bcb-4bdc-b09f-423326af1a5e</tstamp>
-    </comp>
-    <comp ref="JP1">
-      <value>7317</value>
-      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>d360b2ba-8c27-440f-a077-ab04596b2cba</tstamp>
-    </comp>
     <comp ref="L1">
       <value>NRS6020T2R2NMGJ</value>
       <footprint>Inductor_SMD:L_Taiyo-Yuden_MD-4040</footprint>
@@ -453,16 +443,6 @@
       <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00006010b6b0</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>10M</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710ML/728484</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>25355979-dcce-4e06-bc68-20a784ceef69</tstamp>
     </comp>
     <comp ref="R3">
       <value>100K</value>
@@ -697,7 +677,7 @@
     <comp ref="U3">
       <value>MAX4162</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/tlv2375.pdf</datasheet>
+      <datasheet>https://www.digikey.com/en/products/detail/maxim-integrated/MAX4162EUK-T/470825</datasheet>
       <libsource lib="Amplifier_Operational" part="TLV2371DBV" description="Rail-to-Rail Input/Output Operational Amplifier, SOT-23-5"/>
       <property name="Sheet name" value=""/>
       <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
@@ -707,7 +687,7 @@
     <comp ref="U4">
       <value>CD14538BM</value>
       <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
-      <datasheet>https://assets.nexperia.com/documents/data-sheet/HEF4538B.pdf</datasheet>
+      <datasheet>https://www.digikey.com/en/products/detail/texas-instruments/CD14538BM/1690553</datasheet>
       <libsource lib="4xxx" part="4538" description="Monostable"/>
       <property name="Sheet name" value=""/>
       <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
@@ -859,6 +839,23 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="R">
       <description>Resistor</description>
       <docs>~</docs>
@@ -908,22 +905,6 @@
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
         <pin num="3" name="K" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Jumper" part="SolderJumper_2_Open">
-      <description>Solder Jumper, 2-pole, open</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>SolderJumper*Open*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">SolderJumper_2_Open</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="B" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Mechanical" part="MountingHole_Pad">
@@ -1036,9 +1017,6 @@
     <library logical="Diode">
       <uri>/usr/share/kicad/library/Diode.lib</uri>
     </library>
-    <library logical="Jumper">
-      <uri>/usr/share/kicad/library/Jumper.lib</uri>
-    </library>
     <library logical="Mechanical">
       <uri>/usr/share/kicad/library/Mechanical.lib</uri>
     </library>
@@ -1061,10 +1039,9 @@
     </net>
     <net code="2" name="+3V3">
       <node ref="C4" pin="1"/>
+      <node ref="F1" pin="2"/>
       <node ref="FB1" pin="1"/>
       <node ref="FB2" pin="1"/>
-      <node ref="J1" pin="1" pinfunction="Pin_1"/>
-      <node ref="J2" pin="1" pinfunction="Pin_1"/>
       <node ref="R12" pin="1"/>
       <node ref="R18" pin="2"/>
       <node ref="R20" pin="1"/>
@@ -1081,7 +1058,6 @@
       <node ref="C5" pin="2"/>
       <node ref="C6" pin="1"/>
       <node ref="J1" pin="3" pinfunction="Pin_3"/>
-      <node ref="J2" pin="3" pinfunction="Pin_3"/>
       <node ref="Q1" pin="3" pinfunction="S"/>
       <node ref="Q2" pin="2" pinfunction="E"/>
       <node ref="Q3" pin="3" pinfunction="C2"/>
@@ -1217,7 +1193,6 @@
       <node ref="C21" pin="2"/>
       <node ref="D9" pin="3" pinfunction="K"/>
       <node ref="R1" pin="1"/>
-      <node ref="R2" pin="1"/>
     </net>
     <net code="25" name="Net-(C22-Pad1)">
       <node ref="C22" pin="1"/>
@@ -1246,25 +1221,23 @@
     <net code="29" name="Net-(D2-Pad2)">
       <node ref="D2" pin="2" pinfunction="A"/>
       <node ref="J1" pin="2" pinfunction="Pin_2"/>
-      <node ref="J2" pin="2" pinfunction="Pin_2"/>
       <node ref="U4" pin="6" pinfunction="Q"/>
     </net>
-    <net code="30" name="Net-(FB1-Pad2)">
+    <net code="30" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1"/>
+    </net>
+    <net code="31" name="Net-(FB1-Pad2)">
       <node ref="FB1" pin="2"/>
       <node ref="R5" pin="2"/>
     </net>
-    <net code="31" name="Net-(H1-Pad1)">
+    <net code="32" name="Net-(H1-Pad1)">
       <node ref="H1" pin="1" pinfunction="1"/>
       <node ref="R21" pin="1"/>
     </net>
-    <net code="32" name="Net-(H2-Pad1)">
+    <net code="33" name="Net-(H2-Pad1)">
       <node ref="H2" pin="1" pinfunction="1"/>
-      <node ref="JP1" pin="2" pinfunction="B"/>
       <node ref="R1" pin="2"/>
-    </net>
-    <net code="33" name="Net-(JP1-Pad1)">
-      <node ref="JP1" pin="1" pinfunction="A"/>
-      <node ref="R2" pin="2"/>
     </net>
     <net code="34" name="Net-(Q1-Pad2)">
       <node ref="Q1" pin="2" pinfunction="G"/>
