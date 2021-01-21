@@ -72,14 +72,26 @@
     "files": [
       {
         "name": "OpenRover-4.kicad_pcb",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
           "pos_x": 0,
           "pos_y": 60,
           "size_x": 1280,
-          "size_y": 562
+          "size_y": 694
+        }
+      },
+      {
+        "name": "OpenRover-4.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 110,
+          "pos_y": 535,
+          "size_x": 1280,
+          "size_y": 590
         }
       }
     ]
