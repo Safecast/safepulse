@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/rob/Documents/PlatformIO/Projects/OpenRover/Kicad files/OpenHVPS-4/OpenRover-4.kicad_sch</source>
-    <date>Sat 23 Jan 2021 01:04:38 PM JST</date>
-    <tool>Eeschema 5.99.0-unknown-50e22de3ba~95~ubuntu20.04.1</tool>
+    <source>/home/rob/Documents/PlatformIO/Projects/OpenHVPS/Kicad files/OpenHVPS-5/OpenHVPS-5.kicad_sch</source>
+    <date>Wed 03 Feb 2021 05:00:06 PM JST</date>
+    <tool>Eeschema 5.99.0-unknown-c98c7cf200~101~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>SafePulse</title>
         <company>SafeCast</company>
         <rev>2.01</rev>
-        <date>2021-01-17</date>
-        <source>OpenRover-4.kicad_sch</source>
+        <date>2021-01-24</date>
+        <source>OpenHVPS-5.kicad_sch</source>
         <comment number="1" value="Double Sided Version"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -29,8 +29,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012207111/9346002</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-0000600fa622</tstamp>
     </comp>
@@ -39,8 +39,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KOFNNNG/3894469</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-0000600aa140</tstamp>
     </comp>
@@ -49,8 +49,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C1005X7R1H102K050BA/513719</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00006007c47e</tstamp>
     </comp>
@@ -59,8 +59,8 @@
       <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/taiyo-yuden/EMK325BJ106KN-T/930729</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-000060023647</tstamp>
     </comp>
@@ -69,8 +69,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KOFNNNG/3894469</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-0000600248db</tstamp>
     </comp>
@@ -79,8 +79,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff7e2a6</tstamp>
     </comp>
@@ -89,8 +89,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff65a78</tstamp>
     </comp>
@@ -99,8 +99,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff7ebac</tstamp>
     </comp>
@@ -109,8 +109,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff695e7</tstamp>
     </comp>
@@ -119,8 +119,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KOFNNNG/3894469</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-0000600c7b21</tstamp>
     </comp>
@@ -129,8 +129,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff7f335</tstamp>
     </comp>
@@ -139,8 +139,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff69d16</tstamp>
     </comp>
@@ -149,8 +149,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff7f801</tstamp>
     </comp>
@@ -159,8 +159,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff6a25a</tstamp>
     </comp>
@@ -169,8 +169,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C1005X7R1H102K050BA/513719</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>834bd735-860c-4b4e-b96c-108ade73f718</tstamp>
     </comp>
@@ -179,8 +179,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff7fc43</tstamp>
     </comp>
@@ -189,8 +189,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff6a662</tstamp>
     </comp>
@@ -199,8 +199,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff80085</tstamp>
     </comp>
@@ -209,8 +209,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>08dda37d-0dd1-4814-8416-d6840edd86e6</tstamp>
     </comp>
@@ -219,8 +219,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff6ab63</tstamp>
     </comp>
@@ -229,8 +229,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff808db</tstamp>
     </comp>
@@ -239,8 +239,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/kemet/C0805C361J1GAC7800/2212653</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>743b7e51-503f-44bc-a063-83e91538f340</tstamp>
     </comp>
@@ -249,8 +249,8 @@
       <footprint>Diode_SMD:D_SOD-323</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/nexperia-usa-inc/BAS16J135/2405996</datasheet>
       <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-0000600ddc6a</tstamp>
     </comp>
@@ -259,78 +259,78 @@
       <footprint>Diode_SMD:D_SOD-323</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/nexperia-usa-inc/BAS16J135/2405996</datasheet>
       <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00006007dc1b</tstamp>
     </comp>
     <comp ref="D3">
       <value>BAV23</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
+      <datasheet>https://www.digikey.com/en/products/detail/on-semiconductor/BAV23S/965240</datasheet>
       <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff5fed2</tstamp>
     </comp>
     <comp ref="D4">
       <value>BAV23</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
+      <datasheet>https://www.digikey.com/en/products/detail/on-semiconductor/BAV23S/965240</datasheet>
       <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff5c23e</tstamp>
     </comp>
     <comp ref="D5">
       <value>BAV23</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
+      <datasheet>https://www.digikey.com/en/products/detail/on-semiconductor/BAV23S/965240</datasheet>
       <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff5cfba</tstamp>
     </comp>
     <comp ref="D6">
       <value>BAV23</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
+      <datasheet>https://www.digikey.com/en/products/detail/on-semiconductor/BAV23S/965240</datasheet>
       <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff5decb</tstamp>
     </comp>
     <comp ref="D7">
       <value>BAV23</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
+      <datasheet>https://www.digikey.com/en/products/detail/on-semiconductor/BAV23S/965240</datasheet>
       <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff5e958</tstamp>
     </comp>
     <comp ref="D8">
       <value>BAV23</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
+      <datasheet>https://www.digikey.com/en/products/detail/on-semiconductor/BAV23S/965240</datasheet>
       <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff5f518</tstamp>
     </comp>
     <comp ref="D9">
       <value>BAV23</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
+      <datasheet>https://www.digikey.com/en/products/detail/on-semiconductor/BAV23S/965240</datasheet>
       <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff60b0e</tstamp>
     </comp>
@@ -339,8 +339,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/murata-electronics/PRG21BC0R2MM1RA/966726</datasheet>
       <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56f8a695-d95b-413d-8be6-9f4865ee9bab</tstamp>
     </comp>
@@ -349,8 +349,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/taiyo-yuden/BKP2125HS221-T/957823</datasheet>
       <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00006007c915</tstamp>
     </comp>
@@ -359,8 +359,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/taiyo-yuden/BKP2125HS221-T/957823</datasheet>
       <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00006000eb1c</tstamp>
     </comp>
@@ -369,8 +369,8 @@
       <footprint>TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5534fd63-59cd-4e2a-9176-13a9cbe98172</tstamp>
     </comp>
@@ -379,8 +379,8 @@
       <footprint>TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>8e6f414f-5055-45b6-9d50-4d4f2e754637</tstamp>
     </comp>
@@ -389,18 +389,18 @@
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>cfef5cd8-f134-487a-8cb2-e8668492f6e4</tstamp>
     </comp>
     <comp ref="L1">
-      <value>NRS6020T2R2NMGJ</value>
+      <value>2.2uH</value>
       <footprint>Inductor_SMD:L_Taiyo-Yuden_MD-4040</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/taiyo-yuden/NRS6020T2R2NMGJ/2665967</datasheet>
       <libsource lib="2021-01-06_02-33-04" part="NRS6020T2R2NMGJ" description=""/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ffe44be</tstamp>
     </comp>
@@ -409,8 +409,8 @@
       <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/on-semiconductor/FQT7N10LTF/965354</datasheet>
       <libsource lib="Transistor_FET" part="IRF6655" description="4.2A Id, 100V Vds, 62mOhm Rds, N-Channel MOSFET, DirectFET SH"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>0b3e807e-2e2e-4d01-9bff-0d612d23cbec</tstamp>
     </comp>
@@ -419,8 +419,8 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/diodes-incorporated/BC846A-7-F/1934446</datasheet>
       <libsource lib="Transistor_BJT" part="BC846" description="0.1A Ic, 65V Vce, NPN Transistor, SOT-23"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-000060126f57</tstamp>
     </comp>
@@ -429,8 +429,8 @@
       <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/diodes-incorporated/MMDT3906-7-F/814540</datasheet>
       <libsource lib="Transistor_BJT" part="MMDT3906" description="200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-0000601245d2</tstamp>
     </comp>
@@ -439,8 +439,8 @@
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710ML/728484</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00006010b6b0</tstamp>
     </comp>
@@ -449,8 +449,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT100K/1760712</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-0000600d480f</tstamp>
     </comp>
@@ -459,8 +459,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT100K/1760712</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-0000600df7da</tstamp>
     </comp>
@@ -469,8 +469,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRG0805F100R/2380830</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00006009bd6d</tstamp>
     </comp>
@@ -479,8 +479,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H2ATTD1213F/10235721</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-000060011a2b</tstamp>
     </comp>
@@ -489,8 +489,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT22M0/6053747</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-000060043aab</tstamp>
     </comp>
@@ -499,8 +499,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT22M0/6053747</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-000060042e90</tstamp>
     </comp>
@@ -509,8 +509,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT22M0/6053747</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00006003f247</tstamp>
     </comp>
@@ -519,8 +519,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT22M0/6053747</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00006003ae9a</tstamp>
     </comp>
@@ -529,8 +529,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0805F33K/8576369</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00006018546e</tstamp>
     </comp>
@@ -539,8 +539,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRG0805F100R/2380830</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-0000600bb2fc</tstamp>
     </comp>
@@ -549,8 +549,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT100K/1760712</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>0e34cc3d-a772-43e6-b58c-8eeb792631e5</tstamp>
     </comp>
@@ -559,8 +559,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051M50FKEA/1176034</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>adcc374e-3c86-48f4-8335-00f8a4e67511</tstamp>
     </comp>
@@ -569,8 +569,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-07392KL/727905</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>69a31fa7-1f19-4a47-87b1-54ebf66883f6</tstamp>
     </comp>
@@ -579,8 +579,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/yageo/RT0805FRE071ML/1079056</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>9ce4db48-cda7-486a-9c9c-a2b76843a71d</tstamp>
     </comp>
@@ -589,8 +589,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT499K/1760301</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>eddd1674-f656-4f3b-8cc3-f292bb6b041d</tstamp>
     </comp>
@@ -599,8 +599,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/yageo/RT0805FRE071KL/1079055</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>c4d12b2c-0197-4425-bf09-921eb637e549</tstamp>
     </comp>
@@ -609,8 +609,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT100K/1760712</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>7f2bee41-5782-463d-a410-767a52070494</tstamp>
     </comp>
@@ -619,8 +619,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/yageo/RT0805FRE07560KL/1079317</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-0000600be743</tstamp>
     </comp>
@@ -629,8 +629,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-0747KL/727973</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>66aded2a-8a02-4c71-b1c0-2a35646ef9eb</tstamp>
     </comp>
@@ -639,8 +639,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-6ENF2002V/111532</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>f4069547-e5fe-4fc7-a8b6-1fdedc97369c</tstamp>
     </comp>
@@ -649,8 +649,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-073M16L/727809</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00006005cd18</tstamp>
     </comp>
@@ -659,8 +659,8 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/maxim-integrated/MAX6008AEUR-T/1519060</datasheet>
       <libsource lib="Reference_Voltage" part="MAX6035xxUR30" description="3V, High-Supply-Voltage, Precision Voltage Reference, SOT-23"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-000060096cc3</tstamp>
     </comp>
@@ -669,8 +669,8 @@
       <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/texas-instruments/CD74HC14M96/390309</datasheet>
       <libsource lib="74xx" part="74HC14" description="Hex inverter schmitt trigger"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff4e574</tstamp>
     </comp>
@@ -679,8 +679,8 @@
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/maxim-integrated/MAX4162EUK-T/470825</datasheet>
       <libsource lib="Amplifier_Operational" part="TLV2371DBV" description="Rail-to-Rail Input/Output Operational Amplifier, SOT-23-5"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff98bd3</tstamp>
     </comp>
@@ -689,8 +689,8 @@
       <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/texas-instruments/CD14538BM/1690553</datasheet>
       <libsource lib="4xxx" part="4538" description="Monostable"/>
-      <property name="Sheet name" value=""/>
-      <property name="Sheet file" value="OpenRover-4.kicad_sch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00006006d425</tstamp>
     </comp>
@@ -706,8 +706,8 @@
         <field name="Footprint">IND_TAIYO_NRS6020_TAY</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="unspc"/>
-        <pin num="2" name="2" type="unspc"/>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
       </pins>
     </libpart>
     <libpart lib="4xxx" part="4538">
@@ -803,6 +803,22 @@
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
         <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -1032,278 +1048,278 @@
   </libraries>
   <nets>
     <net code="1" name="+2V5">
-      <node ref="R14" pin="1"/>
-      <node ref="R20" pin="2"/>
-      <node ref="U1" pin="1" pinfunction="IN"/>
-      <node ref="U3" pin="3" pinfunction="+"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="+" pintype="input"/>
     </net>
     <net code="2" name="+3V3">
-      <node ref="C4" pin="1"/>
-      <node ref="F1" pin="2"/>
-      <node ref="FB1" pin="1"/>
-      <node ref="FB2" pin="1"/>
-      <node ref="R12" pin="1"/>
-      <node ref="R18" pin="2"/>
-      <node ref="R20" pin="1"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="FB2" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
     </net>
     <net code="3" name="GND">
-      <node ref="C1" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="C15" pin="2"/>
-      <node ref="C19" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C22" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C6" pin="1"/>
-      <node ref="J1" pin="3" pinfunction="Pin_3"/>
-      <node ref="Q1" pin="3" pinfunction="S"/>
-      <node ref="Q2" pin="2" pinfunction="E"/>
-      <node ref="Q3" pin="3" pinfunction="C2"/>
-      <node ref="R15" pin="2"/>
-      <node ref="R16" pin="2"/>
-      <node ref="R22" pin="2"/>
-      <node ref="R23" pin="2"/>
-      <node ref="U1" pin="2" pinfunction="OUT"/>
-      <node ref="U2" pin="7" pinfunction="GND"/>
-      <node ref="U3" pin="2" pinfunction="V-"/>
-      <node ref="U4" pin="1" pinfunction="VSS"/>
-      <node ref="U4" pin="11" pinfunction="Clk-"/>
-      <node ref="U4" pin="13" pinfunction="R"/>
-      <node ref="U4" pin="15" pinfunction="VSS"/>
-      <node ref="U4" pin="4" pinfunction="Clk+"/>
-      <node ref="U4" pin="8" pinfunction="VSS"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="C2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U2" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="V-" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U4" pin="11" pinfunction="Clk-" pintype="input"/>
+      <node ref="U4" pin="13" pinfunction="R" pintype="input"/>
+      <node ref="U4" pin="15" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="Clk+" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="VSS" pintype="power_in"/>
     </net>
     <net code="4" name="Net-(C1-Pad1)">
-      <node ref="C1" pin="1"/>
-      <node ref="R3" pin="1"/>
-      <node ref="R4" pin="1"/>
-      <node ref="U2" pin="1"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="input"/>
     </net>
     <net code="5" name="Net-(C2-Pad1)">
-      <node ref="C2" pin="1"/>
-      <node ref="R5" pin="1"/>
-      <node ref="U2" pin="14" pinfunction="VCC"/>
-      <node ref="U3" pin="5" pinfunction="V+"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="V+" pintype="power_in"/>
     </net>
     <net code="6" name="Net-(C3-Pad1)">
-      <node ref="C3" pin="1"/>
-      <node ref="R6" pin="2"/>
-      <node ref="U4" pin="2" pinfunction="RxCx"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="RxCx" pintype="input"/>
     </net>
     <net code="7" name="Net-(C5-Pad1)">
-      <node ref="C5" pin="1"/>
-      <node ref="FB2" pin="2"/>
-      <node ref="L1" pin="1" pinfunction="1"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="FB2" pin="2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="unspecified"/>
     </net>
     <net code="8" name="Net-(C6-Pad2)">
-      <node ref="C6" pin="2"/>
-      <node ref="C8" pin="1"/>
-      <node ref="D3" pin="3" pinfunction="K"/>
-      <node ref="R10" pin="1"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D3" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
     </net>
     <net code="9" name="Net-(C7-Pad1)">
-      <node ref="C7" pin="1"/>
-      <node ref="D3" pin="1" pinfunction="K"/>
-      <node ref="L1" pin="2" pinfunction="2"/>
-      <node ref="Q1" pin="1" pinfunction="D"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="Q1" pin="1" pinfunction="D" pintype="passive"/>
     </net>
     <net code="10" name="Net-(C7-Pad2)">
-      <node ref="C7" pin="2"/>
-      <node ref="C9" pin="1"/>
-      <node ref="D3" pin="2" pinfunction="A"/>
-      <node ref="D4" pin="1" pinfunction="K"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
     </net>
     <net code="11" name="Net-(C10-Pad1)">
-      <node ref="C10" pin="1"/>
-      <node ref="R12" pin="2"/>
-      <node ref="R6" pin="1"/>
-      <node ref="U4" pin="12" pinfunction="Clk+"/>
-      <node ref="U4" pin="16" pinfunction="VDD"/>
-      <node ref="U4" pin="3" pinfunction="R"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="Clk+" pintype="input"/>
+      <node ref="U4" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="R" pintype="input"/>
     </net>
     <net code="12" name="Net-(C11-Pad1)">
-      <node ref="C11" pin="1"/>
-      <node ref="C8" pin="2"/>
-      <node ref="D4" pin="3" pinfunction="K"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D4" pin="3" pinfunction="K" pintype="passive"/>
     </net>
     <net code="13" name="Net-(C11-Pad2)">
-      <node ref="C11" pin="2"/>
-      <node ref="C13" pin="1"/>
-      <node ref="D5" pin="3" pinfunction="K"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="D5" pin="3" pinfunction="K" pintype="passive"/>
     </net>
     <net code="14" name="Net-(C12-Pad1)">
-      <node ref="C12" pin="1"/>
-      <node ref="C9" pin="2"/>
-      <node ref="D4" pin="2" pinfunction="A"/>
-      <node ref="D5" pin="1" pinfunction="K"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
     </net>
     <net code="15" name="Net-(C12-Pad2)">
-      <node ref="C12" pin="2"/>
-      <node ref="C14" pin="1"/>
-      <node ref="D5" pin="2" pinfunction="A"/>
-      <node ref="D6" pin="1" pinfunction="K"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
     </net>
     <net code="16" name="Net-(C13-Pad2)">
-      <node ref="C13" pin="2"/>
-      <node ref="C16" pin="1"/>
-      <node ref="D6" pin="3" pinfunction="K"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="D6" pin="3" pinfunction="K" pintype="passive"/>
     </net>
     <net code="17" name="Net-(C14-Pad2)">
-      <node ref="C14" pin="2"/>
-      <node ref="C17" pin="1"/>
-      <node ref="D6" pin="2" pinfunction="A"/>
-      <node ref="D7" pin="1" pinfunction="K"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
     </net>
     <net code="18" name="Net-(C15-Pad1)">
-      <node ref="C15" pin="1"/>
-      <node ref="Q3" pin="2" pinfunction="B1"/>
-      <node ref="R14" pin="2"/>
-      <node ref="R15" pin="1"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="B1" pintype="input"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
     </net>
     <net code="19" name="Net-(C16-Pad2)">
-      <node ref="C16" pin="2"/>
-      <node ref="C18" pin="1"/>
-      <node ref="D7" pin="3" pinfunction="K"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="D7" pin="3" pinfunction="K" pintype="passive"/>
     </net>
     <net code="20" name="Net-(C17-Pad2)">
-      <node ref="C17" pin="2"/>
-      <node ref="C20" pin="1"/>
-      <node ref="D7" pin="2" pinfunction="A"/>
-      <node ref="D8" pin="1" pinfunction="K"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
     </net>
     <net code="21" name="Net-(C18-Pad2)">
-      <node ref="C18" pin="2"/>
-      <node ref="C21" pin="1"/>
-      <node ref="D8" pin="3" pinfunction="K"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="D8" pin="3" pinfunction="K" pintype="passive"/>
     </net>
     <net code="22" name="Net-(C19-Pad1)">
-      <node ref="C19" pin="1"/>
-      <node ref="R13" pin="1"/>
-      <node ref="R17" pin="1"/>
-      <node ref="R18" pin="1"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
     </net>
     <net code="23" name="Net-(C20-Pad2)">
-      <node ref="C20" pin="2"/>
-      <node ref="D8" pin="2" pinfunction="A"/>
-      <node ref="D9" pin="1" pinfunction="K"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
     </net>
     <net code="24" name="Net-(C21-Pad2)">
-      <node ref="C21" pin="2"/>
-      <node ref="D9" pin="3" pinfunction="K"/>
-      <node ref="R1" pin="1"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="D9" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
     </net>
     <net code="25" name="Net-(C22-Pad1)">
-      <node ref="C22" pin="1"/>
-      <node ref="R19" pin="2"/>
-      <node ref="R21" pin="2"/>
-      <node ref="R22" pin="1"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
     </net>
     <net code="26" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1" pinfunction="K"/>
-      <node ref="U2" pin="11"/>
-      <node ref="U2" pin="13"/>
-      <node ref="U2" pin="2"/>
-      <node ref="U2" pin="3"/>
-      <node ref="U2" pin="5"/>
-      <node ref="U2" pin="9"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="11" pintype="input"/>
+      <node ref="U2" pin="13" pintype="input"/>
+      <node ref="U2" pin="2" pintype="output"/>
+      <node ref="U2" pin="3" pintype="input"/>
+      <node ref="U2" pin="5" pintype="input"/>
+      <node ref="U2" pin="9" pintype="input"/>
     </net>
     <net code="27" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2" pinfunction="A"/>
-      <node ref="R4" pin="2"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
     </net>
     <net code="28" name="Net-(D2-Pad1)">
-      <node ref="D2" pin="1" pinfunction="K"/>
-      <node ref="R11" pin="1"/>
-      <node ref="U4" pin="5" pinfunction="Clk-"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="Clk-" pintype="input"/>
     </net>
     <net code="29" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2" pinfunction="A"/>
-      <node ref="J1" pin="2" pinfunction="Pin_2"/>
-      <node ref="U4" pin="6" pinfunction="Q"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="Q" pintype="output"/>
     </net>
     <net code="30" name="Net-(F1-Pad1)">
-      <node ref="F1" pin="1"/>
-      <node ref="J1" pin="1" pinfunction="Pin_1"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="31" name="Net-(FB1-Pad2)">
-      <node ref="FB1" pin="2"/>
-      <node ref="R5" pin="2"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
     </net>
     <net code="32" name="Net-(H1-Pad1)">
-      <node ref="H1" pin="1" pinfunction="1"/>
-      <node ref="R21" pin="1"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R21" pin="1" pintype="passive"/>
     </net>
     <net code="33" name="Net-(H2-Pad1)">
-      <node ref="H2" pin="1" pinfunction="1"/>
-      <node ref="R1" pin="2"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
     </net>
     <net code="34" name="Net-(Q1-Pad2)">
-      <node ref="Q1" pin="2" pinfunction="G"/>
-      <node ref="U2" pin="10"/>
-      <node ref="U2" pin="12"/>
-      <node ref="U2" pin="4"/>
-      <node ref="U2" pin="6"/>
-      <node ref="U2" pin="8"/>
+      <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="U2" pin="10" pintype="output"/>
+      <node ref="U2" pin="12" pintype="output"/>
+      <node ref="U2" pin="4" pintype="output"/>
+      <node ref="U2" pin="6" pintype="output"/>
+      <node ref="U2" pin="8" pintype="output"/>
     </net>
     <net code="35" name="Net-(Q2-Pad1)">
-      <node ref="Q2" pin="1" pinfunction="B"/>
-      <node ref="Q3" pin="6" pinfunction="C1"/>
-      <node ref="R16" pin="1"/>
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="Q3" pin="6" pinfunction="C1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
     </net>
     <net code="36" name="Net-(Q2-Pad3)">
-      <node ref="Q2" pin="3" pinfunction="C"/>
-      <node ref="R11" pin="2"/>
-      <node ref="R13" pin="2"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
     </net>
     <net code="37" name="Net-(Q3-Pad1)">
-      <node ref="Q3" pin="1" pinfunction="E1"/>
-      <node ref="Q3" pin="4" pinfunction="E2"/>
-      <node ref="R17" pin="2"/>
+      <node ref="Q3" pin="1" pinfunction="E1" pintype="passive"/>
+      <node ref="Q3" pin="4" pinfunction="E2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
     </net>
     <net code="38" name="Net-(Q3-Pad5)">
-      <node ref="Q3" pin="5" pinfunction="B2"/>
-      <node ref="R19" pin="1"/>
+      <node ref="Q3" pin="5" pinfunction="B2" pintype="input"/>
+      <node ref="R19" pin="1" pintype="passive"/>
     </net>
     <net code="39" name="Net-(R3-Pad2)">
-      <node ref="R3" pin="2"/>
-      <node ref="U3" pin="1"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="output"/>
     </net>
     <net code="40" name="Net-(R7-Pad2)">
-      <node ref="R7" pin="2"/>
-      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
     </net>
     <net code="41" name="Net-(R8-Pad2)">
-      <node ref="R8" pin="2"/>
-      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
     </net>
     <net code="42" name="Net-(R10-Pad2)">
-      <node ref="R10" pin="2"/>
-      <node ref="R9" pin="2"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
     </net>
     <net code="43" name="Net-(R23-Pad1)">
-      <node ref="R23" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="U3" pin="4" pinfunction="-"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="-" pintype="input"/>
     </net>
-    <net code="44" name="no_connect_(D9-Pad2)">
-      <node ref="D9" pin="2" pinfunction="A"/>
+    <net code="44" name="unconnected-(D9-Pad2)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="45" name="no_connect_(U1-Pad3)">
-      <node ref="U1" pin="3" pinfunction="GND"/>
+    <net code="45" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="46" name="no_connect_(U4-Pad7)">
-      <node ref="U4" pin="7" pinfunction="~Q"/>
+    <net code="46" name="unconnected-(U4-Pad7)">
+      <node ref="U4" pin="7" pinfunction="~Q" pintype="output"/>
     </net>
-    <net code="47" name="no_connect_(U4-Pad9)">
-      <node ref="U4" pin="9" pinfunction="~Q"/>
+    <net code="47" name="unconnected-(U4-Pad9)">
+      <node ref="U4" pin="9" pinfunction="~Q" pintype="output"/>
     </net>
-    <net code="48" name="no_connect_(U4-Pad10)">
-      <node ref="U4" pin="10" pinfunction="Q"/>
+    <net code="48" name="unconnected-(U4-Pad10)">
+      <node ref="U4" pin="10" pinfunction="Q" pintype="output"/>
     </net>
-    <net code="49" name="no_connect_(U4-Pad14)">
-      <node ref="U4" pin="14" pinfunction="RxCx"/>
+    <net code="49" name="unconnected-(U4-Pad14)">
+      <node ref="U4" pin="14" pinfunction="RxCx" pintype="input"/>
     </net>
   </nets>
 </export>
