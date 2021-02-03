@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/rob/Documents/PlatformIO/Projects/OpenHVPS/Kicad files/OpenHVPS-5/OpenHVPS-5.kicad_sch</source>
-    <date>Wed 03 Feb 2021 05:00:06 PM JST</date>
+    <date>Wed 03 Feb 2021 09:26:15 PM JST</date>
     <tool>Eeschema 5.99.0-unknown-c98c7cf200~101~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -347,7 +347,7 @@
     <comp ref="FB1">
       <value>BKP2125HS221-T</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/taiyo-yuden/BKP2125HS221-T/957823</datasheet>
+      <datasheet>https://www.digikey.com/en/products/detail/bourns-inc/MH2029-221Y/3767626</datasheet>
       <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
@@ -357,7 +357,7 @@
     <comp ref="FB2">
       <value>BKP2125HS221-T</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/taiyo-yuden/BKP2125HS221-T/957823</datasheet>
+      <datasheet>https://www.digikey.com/en/products/detail/bourns-inc/MH2029-221Y/3767626</datasheet>
       <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
