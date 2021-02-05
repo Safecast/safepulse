@@ -1,4 +1,4 @@
-(kicad_pcb (version 20210108) (generator pcbnew)
+(kicad_pcb (version 20210126) (generator pcbnew)
 
   (general
     (thickness 1.6)
@@ -39,7 +39,7 @@
 
   (setup
     (pcbplotparams
-      (layerselection 0x00010fc_ffffffff)
+      (layerselection 0x0000040_7ffffffe)
       (disableapertmacros false)
       (usegerberextensions true)
       (usegerberattributes false)
@@ -51,7 +51,7 @@
       (plotframeref false)
       (viasonmask false)
       (mode 1)
-      (useauxorigin true)
+      (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15.000000)
@@ -65,7 +65,7 @@
       (plotinvisibletext false)
       (sketchpadsonfab false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 5)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
