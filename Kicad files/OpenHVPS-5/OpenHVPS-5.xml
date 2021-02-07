@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/rob/Documents/PlatformIO/Projects/OpenHVPS/Kicad files/OpenHVPS-5/OpenHVPS-5.kicad_sch</source>
-    <date>Wed 03 Feb 2021 09:26:15 PM JST</date>
-    <tool>Eeschema 5.99.0-unknown-c98c7cf200~101~ubuntu20.04.1</tool>
+    <date>Sun 07 Feb 2021 04:32:00 PM JST</date>
+    <tool>Eeschema 5.99.0-unknown-65ca3da22d~101~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>SafePulse</title>
@@ -47,7 +47,7 @@
     <comp ref="C3">
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C1005X7R1H102K050BA/513719</datasheet>
+      <datasheet>https://www.digikey.jp/product-detail/en/CL21B105KOFNNNG/1276-6471-1-ND/5958099/?itemSeq=353431115</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
@@ -115,16 +115,6 @@
       <tstamp>00000000-0000-0000-0000-00005ff695e7</tstamp>
     </comp>
     <comp ref="C10">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KOFNNNG/3894469</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>00000000-0000-0000-0000-0000600c7b21</tstamp>
-    </comp>
-    <comp ref="C11">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
@@ -134,7 +124,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff7f335</tstamp>
     </comp>
-    <comp ref="C12">
+    <comp ref="C11">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
@@ -144,7 +134,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff69d16</tstamp>
     </comp>
-    <comp ref="C13">
+    <comp ref="C12">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
@@ -154,7 +144,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff7f801</tstamp>
     </comp>
-    <comp ref="C14">
+    <comp ref="C13">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
@@ -164,17 +154,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff6a25a</tstamp>
     </comp>
-    <comp ref="C15">
-      <value>1nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C1005X7R1H102K050BA/513719</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>834bd735-860c-4b4e-b96c-108ade73f718</tstamp>
-    </comp>
-    <comp ref="C16">
+    <comp ref="C14">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
@@ -184,7 +164,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff7fc43</tstamp>
     </comp>
-    <comp ref="C17">
+    <comp ref="C15">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
@@ -194,7 +174,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff6a662</tstamp>
     </comp>
-    <comp ref="C18">
+    <comp ref="C16">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
@@ -203,6 +183,26 @@
       <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005ff80085</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005ff6ab63</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005ff808db</tstamp>
     </comp>
     <comp ref="C19">
       <value>0.1uF</value>
@@ -214,26 +214,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>08dda37d-0dd1-4814-8416-d6840edd86e6</tstamp>
     </comp>
-    <comp ref="C20">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>00000000-0000-0000-0000-00005ff6ab63</tstamp>
-    </comp>
-    <comp ref="C21">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104K125AA/2733184</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>00000000-0000-0000-0000-00005ff808db</tstamp>
-    </comp>
     <comp ref="C22">
       <value>360pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
@@ -243,6 +223,26 @@
       <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>743b7e51-503f-44bc-a063-83e91538f340</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KOFNNNG/3894469</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-0000600c7b21</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.jp/product-detail/en/CL21B105KOFNNNG/1276-6471-1-ND/5958099/?itemSeq=353431115</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>834bd735-860c-4b4e-b96c-108ade73f718</tstamp>
     </comp>
     <comp ref="D1">
       <value>BAS16J</value>
@@ -366,7 +366,7 @@
     </comp>
     <comp ref="H1">
       <value>Cathode</value>
-      <footprint>TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm</footprint>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.4mm_Beaded</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
@@ -376,7 +376,7 @@
     </comp>
     <comp ref="H2">
       <value>Anode</value>
-      <footprint>TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm</footprint>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
@@ -1064,11 +1064,11 @@
     </net>
     <net code="3" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
-      <node ref="C10" pin="2" pintype="passive"/>
-      <node ref="C15" pin="2" pintype="passive"/>
       <node ref="C19" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
@@ -1133,66 +1133,62 @@
     </net>
     <net code="11" name="Net-(C10-Pad1)">
       <node ref="C10" pin="1" pintype="passive"/>
-      <node ref="R12" pin="2" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
-      <node ref="U4" pin="12" pinfunction="Clk+" pintype="input"/>
-      <node ref="U4" pin="16" pinfunction="VDD" pintype="power_in"/>
-      <node ref="U4" pin="3" pinfunction="R" pintype="input"/>
-    </net>
-    <net code="12" name="Net-(C11-Pad1)">
-      <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="D4" pin="3" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="13" name="Net-(C11-Pad2)">
-      <node ref="C11" pin="2" pintype="passive"/>
-      <node ref="C13" pin="1" pintype="passive"/>
+    <net code="12" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
       <node ref="D5" pin="3" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="14" name="Net-(C12-Pad1)">
-      <node ref="C12" pin="1" pintype="passive"/>
+    <net code="13" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="15" name="Net-(C12-Pad2)">
-      <node ref="C12" pin="2" pintype="passive"/>
-      <node ref="C14" pin="1" pintype="passive"/>
+    <net code="14" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
       <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(C13-Pad2)">
-      <node ref="C13" pin="2" pintype="passive"/>
-      <node ref="C16" pin="1" pintype="passive"/>
+    <net code="15" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
       <node ref="D6" pin="3" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(C14-Pad2)">
-      <node ref="C14" pin="2" pintype="passive"/>
-      <node ref="C17" pin="1" pintype="passive"/>
+    <net code="16" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
       <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(C15-Pad1)">
-      <node ref="C15" pin="1" pintype="passive"/>
-      <node ref="Q3" pin="2" pinfunction="B1" pintype="input"/>
-      <node ref="R14" pin="2" pintype="passive"/>
-      <node ref="R15" pin="1" pintype="passive"/>
+    <net code="17" name="Net-(C14-Pad2)">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="D7" pin="3" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(C15-Pad2)">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
     </net>
     <net code="19" name="Net-(C16-Pad2)">
       <node ref="C16" pin="2" pintype="passive"/>
       <node ref="C18" pin="1" pintype="passive"/>
-      <node ref="D7" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="3" pinfunction="K" pintype="passive"/>
     </net>
     <net code="20" name="Net-(C17-Pad2)">
       <node ref="C17" pin="2" pintype="passive"/>
-      <node ref="C20" pin="1" pintype="passive"/>
-      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
     </net>
     <net code="21" name="Net-(C18-Pad2)">
       <node ref="C18" pin="2" pintype="passive"/>
-      <node ref="C21" pin="1" pintype="passive"/>
-      <node ref="D8" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
     </net>
     <net code="22" name="Net-(C19-Pad1)">
       <node ref="C19" pin="1" pintype="passive"/>
@@ -1200,21 +1196,25 @@
       <node ref="R17" pin="1" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(C20-Pad2)">
-      <node ref="C20" pin="2" pintype="passive"/>
-      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
-    </net>
-    <net code="24" name="Net-(C21-Pad2)">
-      <node ref="C21" pin="2" pintype="passive"/>
-      <node ref="D9" pin="3" pinfunction="K" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
-    </net>
-    <net code="25" name="Net-(C22-Pad1)">
+    <net code="23" name="Net-(C22-Pad1)">
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="R19" pin="2" pintype="passive"/>
       <node ref="R21" pin="2" pintype="passive"/>
       <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="Clk+" pintype="input"/>
+      <node ref="U4" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="R" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(C24-Pad1)">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="B1" pintype="input"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
     </net>
     <net code="26" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
