@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.0,
-          "height": 3.6,
-          "width": 3.6
+          "drill": 0.0,
+          "height": 1.5,
+          "width": 2.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -364,7 +364,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "OpenHVPS-5.net",
-      "specctra_dsn": "OpenHVPS-2.dsn",
+      "specctra_dsn": "OpenHVPS-5.dsn",
       "step": "",
       "vrml": "OpenHVPS-1.wrl"
     },
@@ -401,7 +401,7 @@
   },
   "sheets": [
     [
-      "a93e29d4-e15d-4236-9e4c-5fcf8f858877",
+      "7fec9f64-0eaf-4f2f-9232-5b6a2ea608c3",
       ""
     ]
   ],
