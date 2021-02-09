@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/rob/Documents/PlatformIO/Projects/OpenHVPS/Kicad files/OpenHVPS-5/OpenHVPS-5.kicad_sch</source>
-    <date>Sun 07 Feb 2021 04:32:00 PM JST</date>
-    <tool>Eeschema 5.99.0-unknown-65ca3da22d~101~ubuntu20.04.1</tool>
+    <date>Tue 09 Feb 2021 08:15:45 PM JST</date>
+    <tool>Eeschema 5.99.0-unknown-34d7c3e31f~101~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>SafePulse</title>
@@ -265,7 +265,7 @@
       <tstamp>00000000-0000-0000-0000-00006007dc1b</tstamp>
     </comp>
     <comp ref="D3">
-      <value>BAV23</value>
+      <value>BAV23S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/on-semiconductor/BAV23S/965240</datasheet>
       <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
@@ -275,7 +275,7 @@
       <tstamp>00000000-0000-0000-0000-00005ff5fed2</tstamp>
     </comp>
     <comp ref="D4">
-      <value>BAV23</value>
+      <value>BAV23S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/on-semiconductor/BAV23S/965240</datasheet>
       <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
@@ -285,7 +285,7 @@
       <tstamp>00000000-0000-0000-0000-00005ff5c23e</tstamp>
     </comp>
     <comp ref="D5">
-      <value>BAV23</value>
+      <value>BAV23S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/on-semiconductor/BAV23S/965240</datasheet>
       <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
@@ -295,7 +295,7 @@
       <tstamp>00000000-0000-0000-0000-00005ff5cfba</tstamp>
     </comp>
     <comp ref="D6">
-      <value>BAV23</value>
+      <value>BAV23S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/on-semiconductor/BAV23S/965240</datasheet>
       <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
@@ -305,7 +305,7 @@
       <tstamp>00000000-0000-0000-0000-00005ff5decb</tstamp>
     </comp>
     <comp ref="D7">
-      <value>BAV23</value>
+      <value>BAV23S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/on-semiconductor/BAV23S/965240</datasheet>
       <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
@@ -315,7 +315,7 @@
       <tstamp>00000000-0000-0000-0000-00005ff5e958</tstamp>
     </comp>
     <comp ref="D8">
-      <value>BAV23</value>
+      <value>BAV23S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/on-semiconductor/BAV23S/965240</datasheet>
       <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
@@ -325,7 +325,7 @@
       <tstamp>00000000-0000-0000-0000-00005ff5f518</tstamp>
     </comp>
     <comp ref="D9">
-      <value>BAV23</value>
+      <value>BAV23S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/on-semiconductor/BAV23S/965240</datasheet>
       <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
@@ -384,6 +384,16 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>8e6f414f-5055-45b6-9d50-4d4f2e754637</tstamp>
     </comp>
+    <comp ref="H4">
+      <value>Anode</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1bb128b1-2936-4930-949d-3657cdcf55a0</tstamp>
+    </comp>
     <comp ref="J1">
       <value>Conn_01x03_Male</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
@@ -395,9 +405,9 @@
       <tstamp>cfef5cd8-f134-487a-8cb2-e8668492f6e4</tstamp>
     </comp>
     <comp ref="L1">
-      <value>2.2uH</value>
+      <value>4.7uH</value>
       <footprint>Inductor_SMD:L_Taiyo-Yuden_MD-4040</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/taiyo-yuden/NRS6020T2R2NMGJ/2665967</datasheet>
+      <datasheet>https://www.digikey.com/en/products/detail/taiyo-yuden/MDWK4040T4R7MM/5880041</datasheet>
       <libsource lib="2021-01-06_02-33-04" part="NRS6020T2R2NMGJ" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
@@ -406,8 +416,8 @@
     </comp>
     <comp ref="Q1">
       <value>FQT7N10</value>
-      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/on-semiconductor/FQT7N10LTF/965354</datasheet>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin4</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irf6655pbf.pdf?fileId=5546d462533600a4015355ec76961a5b</datasheet>
       <libsource lib="Transistor_FET" part="IRF6655" description="4.2A Id, 100V Vds, 62mOhm Rds, N-Channel MOSFET, DirectFET SH"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
@@ -435,9 +445,9 @@
       <tstamp>00000000-0000-0000-0000-0000601245d2</tstamp>
     </comp>
     <comp ref="R1">
-      <value>10M</value>
+      <value>4.7M</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710ML/728484</datasheet>
+      <datasheet>https://www.digikey.com/en/products/detail/rohm-semiconductor/KTR18EZPF4704/1983735</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
@@ -455,9 +465,9 @@
       <tstamp>00000000-0000-0000-0000-0000600d480f</tstamp>
     </comp>
     <comp ref="R4">
-      <value>100K</value>
+      <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT100K/1760712</datasheet>
+      <datasheet>https://www.digikey.com/en/products/detail/stackpole-electronics-https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
@@ -615,9 +625,9 @@
       <tstamp>7f2bee41-5782-463d-a410-767a52070494</tstamp>
     </comp>
     <comp ref="R20">
-      <value>560K</value>
+      <value>470K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/yageo/RT0805FRE07560KL/1079317</datasheet>
+      <datasheet>https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRG0805F470K/2380908</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OpenHVPS-5.kicad_sch"/>
@@ -1008,9 +1018,9 @@
         <field name="Datasheet">https://www.infineon.com/dgdl/irf6655pbf.pdf?fileId=5546d462533600a4015355ec76961a5b</field>
       </fields>
       <pins>
-        <pin num="1" name="D" type="passive"/>
-        <pin num="2" name="G" type="input"/>
+        <pin num="1" name="G" type="input"/>
         <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="D" type="passive"/>
       </pins>
     </libpart>
   </libparts>
@@ -1123,7 +1133,7 @@
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="unspecified"/>
-      <node ref="Q1" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="4" pinfunction="D" pintype="passive"/>
     </net>
     <net code="10" name="Net-(C7-Pad2)">
       <node ref="C7" pin="2" pintype="passive"/>
@@ -1187,6 +1197,7 @@
     </net>
     <net code="21" name="Net-(C18-Pad2)">
       <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D9" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
@@ -1253,10 +1264,11 @@
     </net>
     <net code="33" name="Net-(H2-Pad1)">
       <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
       <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="34" name="Net-(Q1-Pad2)">
-      <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
+    <net code="34" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
       <node ref="U2" pin="10" pintype="output"/>
       <node ref="U2" pin="12" pintype="output"/>
       <node ref="U2" pin="4" pintype="output"/>
@@ -1303,22 +1315,19 @@
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="-" pintype="input"/>
     </net>
-    <net code="44" name="unconnected-(D9-Pad2)">
-      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
-    </net>
-    <net code="45" name="unconnected-(U1-Pad3)">
+    <net code="44" name="unconnected-(U1-Pad3)">
       <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="46" name="unconnected-(U4-Pad7)">
+    <net code="45" name="unconnected-(U4-Pad7)">
       <node ref="U4" pin="7" pinfunction="~Q" pintype="output"/>
     </net>
-    <net code="47" name="unconnected-(U4-Pad9)">
+    <net code="46" name="unconnected-(U4-Pad9)">
       <node ref="U4" pin="9" pinfunction="~Q" pintype="output"/>
     </net>
-    <net code="48" name="unconnected-(U4-Pad10)">
+    <net code="47" name="unconnected-(U4-Pad10)">
       <node ref="U4" pin="10" pinfunction="Q" pintype="output"/>
     </net>
-    <net code="49" name="unconnected-(U4-Pad14)">
+    <net code="48" name="unconnected-(U4-Pad14)">
       <node ref="U4" pin="14" pinfunction="RxCx" pintype="input"/>
     </net>
   </nets>
