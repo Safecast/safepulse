@@ -1,6 +1,10 @@
 {
   "board": {
+<<<<<<< HEAD
     "active_layer": 36,
+=======
+    "active_layer": 0,
+>>>>>>> 48b58824f7c3a2b51750e46f540c3cb5d3f21443
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -64,7 +68,11 @@
       40
     ],
     "visible_layers": "fffffff_ffffffff",
+<<<<<<< HEAD
     "zone_display_mode": 0
+=======
+    "zone_display_mode": 1
+>>>>>>> 48b58824f7c3a2b51750e46f540c3cb5d3f21443
   },
   "meta": {
     "filename": "OpenHVPS-5.kicad_prl",
@@ -73,15 +81,36 @@
   "project": {
     "files": [
       {
+<<<<<<< HEAD
         "name": "OpenHVPS-5.kicad_sch",
         "open": true,
+=======
+        "name": "OpenHVPS-5.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 0,
+          "pos_y": 60,
+          "size_x": 1280,
+          "size_y": 720
+        }
+      },
+      {
+        "name": "OpenHVPS-5.kicad_sch",
+        "open": false,
+>>>>>>> 48b58824f7c3a2b51750e46f540c3cb5d3f21443
         "window": {
           "display": 0,
           "maximized": true,
           "pos_x": 110,
           "pos_y": 561,
           "size_x": 1280,
+<<<<<<< HEAD
           "size_y": 408
+=======
+          "size_y": 460
+>>>>>>> 48b58824f7c3a2b51750e46f540c3cb5d3f21443
         }
       }
     ]

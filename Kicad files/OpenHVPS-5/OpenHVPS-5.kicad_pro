@@ -33,9 +33,15 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
+<<<<<<< HEAD
           "drill": 1.0,
           "height": 2.5,
           "width": 2.5
+=======
+          "drill": 0.0,
+          "height": 1.5,
+          "width": 2.0
+>>>>>>> 48b58824f7c3a2b51750e46f540c3cb5d3f21443
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -401,7 +407,11 @@
   },
   "sheets": [
     [
+<<<<<<< HEAD
       "b68be00e-c340-4721-b0a5-66a1fc367fc8",
+=======
+      "7fec9f64-0eaf-4f2f-9232-5b6a2ea608c3",
+>>>>>>> 48b58824f7c3a2b51750e46f540c3cb5d3f21443
       ""
     ]
   ],
