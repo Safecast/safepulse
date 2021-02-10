@@ -4,10 +4,11 @@
 
   (title_block
     (title "SafePulse")
-    (date "2021-01-24")
-    (rev "2.01")
+    (date "2021-02-10")
+    (rev "1.10")
     (company "SafeCast")
     (comment 1 "Double Sided Version")
+    (comment 2 "A. Lind & R. Oudendijk")
   )
 
   (lib_symbols

@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer": 31,
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -38,6 +38,7 @@
       9,
       10,
       11,
+      12,
       13,
       14,
       15,
@@ -62,7 +63,7 @@
       39,
       40
     ],
-    "visible_layers": "ffffeff_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
@@ -70,19 +71,6 @@
     "version": 2
   },
   "project": {
-    "files": [
-      {
-        "name": "OpenHVPS-5.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 110,
-          "pos_y": 561,
-          "size_x": 1280,
-          "size_y": 538
-        }
-      }
-    ]
+    "files": []
   }
 }
