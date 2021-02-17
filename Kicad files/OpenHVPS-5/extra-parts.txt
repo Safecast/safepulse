@@ -1,0 +1,11 @@
+R1 https://www.digikey.com/en/products/detail/rohm-semiconductor/KTR18EZPF4704/1983735
+
+R4 https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262
+
+R20 https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRG0805F470K/2380908
+
+C3 C24 https://www.digikey.com/en/products/detail/avx-corporation/08055C102KAT2A/563481
+
+L1 https://www.digikey.com/en/products/detail/taiyo-yuden/MDWK4040T4R7MM/5880041
+
+Q3 Q4 https://www.digikey.com/en/products/detail/on-semiconductor/MMBT3906LT1G/919605
