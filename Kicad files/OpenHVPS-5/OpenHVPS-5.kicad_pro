@@ -390,7 +390,9 @@
     "meta": {
       "version": 0
     },
-    "net_colors": null
+    "net_colors": {
+      "GND": "rgb(16, 255, 34)"
+    }
   },
   "pcbnew": {
     "last_paths": {
@@ -434,7 +436,7 @@
   },
   "sheets": [
     [
-      "858d3a05-6b58-4686-abb1-422ed1b3d6cc",
+      "a9d80b22-5252-4288-b184-f24958091464",
       ""
     ]
   ],
