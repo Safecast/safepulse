@@ -4,7 +4,7 @@
 
   (title_block
     (title "SafePulse")
-    (date "2021-02-20")
+    (date "2021-02-21")
     (rev "1.12")
     (company "SafeCast Team")
     (comment 1 "Double Sided Version")
@@ -1562,7 +1562,6 @@
       )
     )
   )
-
 
   (junction (at 29.21 159.385) (diameter 1.016) (color 0 0 0 0))
   (junction (at 30.48 182.245) (diameter 1.016) (color 0 0 0 0))
@@ -3985,13 +3984,13 @@
     (property "Reference" "C4" (id 0) (at 105.791 26.1366 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100uF" (id 1) (at 105.791 28.448 0)
+    (property "Value" "47uF" (id 1) (at 105.791 28.448 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (id 2) (at 103.835 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X5R107M6R3NT/12140431" (id 3) (at 102.87 27.305 0)
+    (property "Datasheet" "https://www.digikey.com/en/products/detail/taiyo-yuden/EMK316BBJ476ML-T/7067010" (id 3) (at 102.87 27.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8fe9910c-ca78-4475-bda6-2094ea31bfa4))
@@ -4318,7 +4317,7 @@
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 79.502 28.575 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/MH2029-221Y/3767626" (id 3) (at 81.28 28.575 0)
+    (property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/MPZ2012S331ATD25/5040330" (id 3) (at 81.28 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f3dbd3d9-82e7-4fe1-9608-44900f82c0f7))
@@ -4337,7 +4336,7 @@
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 113.792 29.845 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/MH2029-221Y/3767626" (id 3) (at 115.57 29.845 0)
+    (property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/MPZ2012S331ATD25/5040330" (id 3) (at 115.57 29.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2d6ac9eb-7cdc-40d5-a9e0-eee29d43a224))
@@ -4838,7 +4837,7 @@
       (reference "C3") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000060023647"
-      (reference "C4") (unit 1) (value "100uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
+      (reference "C4") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/00000000-0000-0000-0000-0000600248db"
       (reference "C5") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
