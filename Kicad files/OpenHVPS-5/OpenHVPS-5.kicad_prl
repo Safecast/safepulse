@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer": 44,
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -63,7 +63,7 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "ffffeff_fffffff9",
     "zone_display_mode": 0
   },
   "meta": {
@@ -74,14 +74,14 @@
     "files": [
       {
         "name": "OpenHVPS-5.kicad_pcb",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
           "pos_x": 0,
-          "pos_y": 60,
-          "size_x": 1280,
-          "size_y": 562
+          "pos_y": 25,
+          "size_x": 1920,
+          "size_y": 1090
         }
       }
     ]
