@@ -1,4 +1,4 @@
-(kicad_pcb (version 20210228) (generator pcbnew)
+(kicad_pcb (version 20210424) (generator pcbnew)
 
   (general
     (thickness 1.59)
@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "Safepulse")
-    (date "2021-04-17")
-    (rev "V1.2.1")
+    (date "2021-05-12")
+    (rev "V1.2.2")
   )
 
   (layers

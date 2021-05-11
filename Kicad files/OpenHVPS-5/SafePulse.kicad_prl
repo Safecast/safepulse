@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 35,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -15,7 +15,7 @@
     "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
-      "footprints": false,
+      "footprints": true,
       "graphics": true,
       "keepouts": true,
       "lockedItems": true,
@@ -37,6 +37,7 @@
       8,
       9,
       10,
+      11,
       12,
       13,
       14,
@@ -66,35 +67,10 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "OpenHVPS-5.kicad_prl",
+    "filename": "SafePulse.kicad_prl",
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "OpenHVPS-5.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 0,
-          "pos_y": 88,
-          "size_x": 1920,
-          "size_y": 872
-        }
-      },
-      {
-        "name": "OpenHVPS-5.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 320,
-          "pos_y": 369,
-          "size_x": 1280,
-          "size_y": 696
-        }
-      }
-    ]
+    "files": []
   }
 }

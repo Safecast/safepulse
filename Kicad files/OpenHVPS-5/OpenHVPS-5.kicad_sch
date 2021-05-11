@@ -6,8 +6,8 @@
 
   (title_block
     (title "SafePulse")
-    (date "2021-04-17")
-    (rev "1.2.1")
+    (date "2021-05-12")
+    (rev "1.2.2")
     (company "SafeCast Team")
     (comment 1 "Double Sided Version")
     (comment 2 "contact: Allan Lind at allan@safecast.org and Rob Oudendijk at rob@safecast.org")
