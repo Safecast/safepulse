@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -10,12 +10,12 @@
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.5799999833106995
+      "zones": 0.6
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
-      "footprints": false,
+      "footprints": true,
       "graphics": true,
       "keepouts": true,
       "lockedItems": true,
@@ -37,6 +37,7 @@
       8,
       9,
       10,
+      11,
       12,
       13,
       14,
@@ -63,30 +64,13 @@
       36
     ],
     "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
-    "filename": "OpenHVPS-5.kicad_prl",
+    "filename": "temp schematic.kicad_prl",
     "version": 3
   },
   "project": {
-<<<<<<< HEAD
-    "files": [
-      {
-        "name": "OpenHVPS-5.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 110,
-          "pos_y": 552,
-          "size_x": 1280,
-          "size_y": 460
-        }
-      }
-    ]
-=======
     "files": []
->>>>>>> e675c75d7c5e1efdc1fc65b308d9dd3e67544c3b
   }
 }
