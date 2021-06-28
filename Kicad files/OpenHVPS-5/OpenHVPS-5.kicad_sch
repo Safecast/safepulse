@@ -1,4 +1,4 @@
-(kicad_sch (version 20210406) (generator eeschema)
+(kicad_sch (version 20210621) (generator eeschema)
 
   (uuid f260d189-94b1-4000-a377-01efa90805d9)
 
@@ -142,7 +142,7 @@
           (number "6" (effects (font (size 1.27 1.27))))
         )
         (pin output line (at 12.7 -5.08 180) (length 5.08)
-          (name "~Q" (effects (font (size 1.27 1.27))))
+          (name "~{Q}" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
       )
@@ -177,7 +177,7 @@
           (number "15" (effects (font (size 1.27 1.27))))
         )
         (pin output line (at 12.7 -5.08 180) (length 5.08)
-          (name "~Q" (effects (font (size 1.27 1.27))))
+          (name "~{Q}" (effects (font (size 1.27 1.27))))
           (number "9" (effects (font (size 1.27 1.27))))
         )
       )

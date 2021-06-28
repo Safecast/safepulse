@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 35,
-    "active_layer_preset": "All Layers",
+    "active_layer": 44,
+    "active_layer_preset": "Back Layers",
     "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -37,6 +37,7 @@
       8,
       9,
       10,
+      11,
       12,
       13,
       14,
@@ -62,7 +63,7 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "0015055_80000000",
     "zone_display_mode": 0
   },
   "meta": {
@@ -72,15 +73,27 @@
   "project": {
     "files": [
       {
-        "name": "SafePulse.kicad_sch",
+        "name": "SafePulse.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": 320,
-          "pos_y": 369,
+          "pos_x": 0,
+          "pos_y": 215,
           "size_x": 1280,
-          "size_y": 552
+          "size_y": 524
+        }
+      },
+      {
+        "name": "SafePulse.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 110,
+          "pos_y": 497,
+          "size_x": 1280,
+          "size_y": 504
         }
       }
     ]
