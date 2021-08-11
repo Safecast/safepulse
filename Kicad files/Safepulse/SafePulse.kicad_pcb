@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "SafePulse High Voltage Geiger Muller Power Supply")
-    (date "2021-05-15")
-    (rev "V1.2.2")
+    (date "2021-08-11")
+    (rev "V1.2.3")
   )
 
   (layers

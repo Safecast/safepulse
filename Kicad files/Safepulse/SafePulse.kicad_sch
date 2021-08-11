@@ -6,7 +6,7 @@
 
   (title_block
     (title "SafePulse High Voltage Geiger Muller Power Supply")
-    (date "2021-06-28")
+    (date "2021-08-11")
     (rev "1.2.3")
     (company "SafeCast Team")
     (comment 1 "Double Sided Version")
