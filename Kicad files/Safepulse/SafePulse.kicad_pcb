@@ -3104,6 +3104,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/shapes3D/S-35770E01I-K8T2U.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
@@ -4300,6 +4305,11 @@
     (pad "6" smd rect locked (at 2.8 -1.85 90) (size 1.2 1.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 59 "unconnected-(J2-Pad6)") (pinfunction "6") (pintype "passive") (tstamp 94251304-6c9b-4a24-a248-8e3527a0a38a))
     (model "4208.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/shapes3D/4208.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
