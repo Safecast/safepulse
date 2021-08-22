@@ -1,4 +1,4 @@
-(kicad_sch (version 20210406) (generator eeschema)
+(kicad_sch (version 20210621) (generator eeschema)
 
   (uuid f260d189-94b1-4000-a377-01efa90805d9)
 
@@ -142,7 +142,7 @@
           (number "6" (effects (font (size 1.27 1.27))))
         )
         (pin output line (at 12.7 -5.08 180) (length 5.08)
-          (name "~Q" (effects (font (size 1.27 1.27))))
+          (name "~{Q}" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
       )
@@ -177,7 +177,7 @@
           (number "15" (effects (font (size 1.27 1.27))))
         )
         (pin output line (at 12.7 -5.08 180) (length 5.08)
-          (name "~Q" (effects (font (size 1.27 1.27))))
+          (name "~{Q}" (effects (font (size 1.27 1.27))))
           (number "9" (effects (font (size 1.27 1.27))))
         )
       )
@@ -3436,7 +3436,7 @@
     (property "Reference" "R24" (id 0) (at 32.893 185.522 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22k" (id 1) (at 32.893 187.833 0)
+    (property "Value" "33k" (id 1) (at 32.893 187.833 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 28.702 186.69 90)
@@ -4211,7 +4211,7 @@
     (property "Reference" "C1" (id 0) (at 44.196 83.9216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "150pF" (id 1) (at 42.926 86.233 0)
+    (property "Value" "110pF" (id 1) (at 42.926 86.233 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 46.685 95.885 0)
@@ -5404,7 +5404,7 @@
       (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000600fa622"
-      (reference "C1") (unit 1) (value "150pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C1") (unit 1) (value "110pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000600aa140"
       (reference "C2") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -5605,7 +5605,7 @@
       (reference "R23") (unit 1) (value "1.54M") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/95ffa48f-5e4a-4d1a-b1a7-fe360b6ab119"
-      (reference "R24") (unit 1) (value "22k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R24") (unit 1) (value "33k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/6262f35d-33c6-4702-969c-2648bf6ad569"
       (reference "R25") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")

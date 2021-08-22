@@ -1,4 +1,4 @@
-16995853993415363
+17003995400643263
 BK-53
 BAT_BK-53
 
@@ -37967,6 +37967,13 @@ Surface mounted socket strip SMD 2x40 2.54mm double row
 0
 80
 80
+Connector_Qwiic
+4208
+4208-2
+Connector
+0
+6
+6
 Connector_RJ
 RJ12_Amphenol_54601
 RJ12 connector  https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0082.pdf
@@ -42909,6 +42916,13 @@ https://power.murata.com/data/power/oki-78sr.pdf
 0
 3
 3
+Counters
+SOP65P400X80-8N
+TMSOP-8
+Integrated Circuit
+0
+8
+8
 Crystal
 Crystal_AT310_D3.0mm_L10.0mm_Horizontal
 Crystal THT AT310 10.0mm-10.5mm length 3.0mm diameter http://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
@@ -44162,6 +44176,13 @@ THT ceramic resonator filter DSS6
 0
 3
 3
+DWP 2020
+SKQU
+
+
+0
+6
+6
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -46031,6 +46052,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESP32-C3-WROOM-02-N4
+ESP32C3WROOM02N4
+ESP32-C3-WROOM-02-N4-1
+Integrated Circuit
+0
+27
+27
 ESP32-PICO-D4
 ESP32-PICO-D4
 
@@ -67962,6 +67990,13 @@ Standex Meder SIL reed relais
 0
 4
 4
+Relay_THT
+SRA12VDCCL
+SRA-12VDC-CL
+Relay or Contactor
+0
+5
+5
 Resistor_SMD
 R_0201_0603Metric
 Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
