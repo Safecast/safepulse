@@ -73,18 +73,6 @@
   "project": {
     "files": [
       {
-        "name": "SafePulse.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 320,
-          "pos_y": 240,
-          "size_x": 1280,
-          "size_y": 408
-        }
-      },
-      {
         "name": "SafePulse.kicad_pcb",
         "open": false,
         "window": {
