@@ -1,4 +1,4 @@
-(kicad_pcb (version 20210722) (generator pcbnew)
+(kicad_pcb (version 20210824) (generator pcbnew)
 
   (general
     (thickness 1.59)
@@ -65,7 +65,8 @@
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
-    (grid_origin 128.5 75.565)
+    (aux_axis_origin 126.7 77.365)
+    (grid_origin 167.87 60.325)
     (pcbplotparams
       (layerselection 0x00010f0_ffffffff)
       (disableapertmacros false)
@@ -97,7 +98,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "./gerbers")
+      (outputdirectory "gerbers/")
     )
   )
 
