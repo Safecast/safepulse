@@ -386,7 +386,7 @@
       }
     ],
     "meta": {
-      "version": 1
+      "version": 2
     },
     "net_colors": {
       "GND": "rgb(16, 255, 34)"
