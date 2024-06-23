@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20240101)
+	(version 20240602)
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "f260d189-94b1-4000-a377-01efa90805d9")
 	(paper "A4")
 	(title_block
 		(title "SafePulse High Voltage Geiger Muller Power Supply")
-		(date "2024-04-04")
-		(rev "1.2.4")
+		(date "2024-06-22")
+		(rev "1.2.5")
 		(company "SafeCast Team")
 		(comment 1 "Double Sided Version With Counter")
 		(comment 2 "contact: Allan Lind allan@safecast.org and Rob Oudendijk rob@safecast.org")
@@ -92,12 +92,36 @@
 						(type none)
 					)
 				)
+				(arc
+					(start 2.54 1.27)
+					(mid 3.81 2.5344)
+					(end 5.08 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 5.08 0) (xy 5.08 1.27)
 					)
 					(stroke
 						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 1.27)
+					(mid 6.35 2.5344)
+					(end 7.62 1.27)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -116,12 +140,36 @@
 						(type none)
 					)
 				)
+				(arc
+					(start 7.62 1.27)
+					(mid 8.89 2.5344)
+					(end 10.16 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 10.16 0) (xy 10.16 1.27)
 					)
 					(stroke
 						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 1.27)
+					(mid 11.43 2.5344)
+					(end 12.7 1.27)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -140,52 +188,22 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 5.08 1.27)
-					(mid 3.81 2.5344)
-					(end 2.54 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.4986 1.4986)
+							)
+						)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.62 1.27)
-					(mid 6.35 2.5344)
-					(end 5.08 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 10.16 1.27)
-					(mid 8.89 2.5344)
-					(end 7.62 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 12.7 1.27)
-					(mid 11.43 2.5344)
-					(end 10.16 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "2"
+						(effects
+							(font
+								(size 1.4986 1.4986)
+							)
+						)
 					)
 				)
 				(pin unspecified line
@@ -199,24 +217,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.4986 1.4986)
@@ -351,6 +351,42 @@
 			)
 			(symbol "4208_0_0"
 				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 20.32 0 180)
 					(length 5.08)
 					(name "1"
@@ -415,42 +451,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -551,24 +551,6 @@
 				)
 			)
 			(symbol "4538_1_0"
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -12.7 5.08 0)
 					(length 5.08)
@@ -580,24 +562,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -12.7 -7.62 0)
-					(length 5.08)
-					(name "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -634,6 +598,42 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -692,35 +692,17 @@
 				)
 			)
 			(symbol "4538_2_0"
-				(pin output line
-					(at 12.7 2.54 180)
+				(pin input line
+					(at -12.7 5.08 0)
 					(length 5.08)
-					(name "Q"
+					(name "RxCx"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted_clock
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "Clk-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -746,6 +728,24 @@
 						)
 					)
 				)
+				(pin input inverted_clock
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "Clk-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input inverted
 					(at -12.7 -7.62 0)
 					(length 5.08)
@@ -764,24 +764,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "RxCx"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 0 -15.24 90)
 					(length 5.08)
@@ -793,6 +775,24 @@
 						)
 					)
 					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1013,7 +1013,7 @@
 			(symbol "74HC14_1_1"
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1025,7 +1025,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1089,7 +1089,7 @@
 			(symbol "74HC14_2_1"
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1101,7 +1101,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1165,7 +1165,7 @@
 			(symbol "74HC14_3_1"
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1177,7 +1177,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1201,24 +1201,6 @@
 						(type background)
 					)
 				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 3.81)
@@ -1237,11 +1219,29 @@
 						)
 					)
 				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74HC14_4_1"
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1253,7 +1253,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1277,24 +1277,6 @@
 						(type background)
 					)
 				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 3.81)
@@ -1313,11 +1295,29 @@
 						)
 					)
 				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74HC14_5_1"
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1329,7 +1329,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1353,24 +1353,6 @@
 						(type background)
 					)
 				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 3.81)
@@ -1389,11 +1371,29 @@
 						)
 					)
 				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74HC14_6_1"
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1405,7 +1405,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1571,24 +1571,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 -2.54 0)
 					(length 2.54)
@@ -1607,24 +1589,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -1636,6 +1600,42 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1730,24 +1730,6 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -1765,19 +1747,17 @@
 						)
 					)
 				)
-			)
-			(symbol "TLV2371DBV_1_1"
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1785,6 +1765,8 @@
 						)
 					)
 				)
+			)
+			(symbol "TLV2371DBV_1_1"
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -1814,6 +1796,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1891,16 +1891,26 @@
 				)
 			)
 			(symbol "Conn_01x02_Male_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -1915,26 +1925,16 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -2043,9 +2043,42 @@
 				)
 			)
 			(symbol "Conn_01x03_Male_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -2069,7 +2102,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -2077,39 +2110,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(pin passive line
@@ -2344,7 +2344,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -2356,7 +2356,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -2478,7 +2478,7 @@
 			(symbol "Ferrite_Bead_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
 					)
 					(stroke
 						(width 0)
@@ -2502,7 +2502,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+						(xy 0 -1.27) (xy 0 -1.2192)
 					)
 					(stroke
 						(width 0)
@@ -2623,6 +2623,18 @@
 				)
 			)
 			(symbol "Polyfuse_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -0.508 1.27)
 					(end 0.508 -1.27)
@@ -2637,18 +2649,6 @@
 				(polyline
 					(pts
 						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -2902,10 +2902,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2914,10 +2914,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -3047,6 +3047,30 @@
 			(symbol "BAV99_1_1"
 				(polyline
 					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0 0) (xy 0 -2.54)
 					)
 					(stroke
@@ -3057,9 +3081,20 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.2032)
@@ -3081,41 +3116,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -3135,24 +3135,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name "K"
@@ -3163,6 +3145,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3244,7 +3244,7 @@
 			(symbol "Ferrite_Bead_1_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
 					)
 					(stroke
 						(width 0)
@@ -3268,7 +3268,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+						(xy 0 -1.27) (xy 0 -1.2192)
 					)
 					(stroke
 						(width 0)
@@ -3519,24 +3519,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 2.54)
@@ -3548,6 +3530,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3754,34 +3754,16 @@
 					)
 				)
 				(pin passive line
-					(at 30.48 -7.62 180)
+					(at 30.48 0 180)
 					(length 5.08)
-					(name "LOOP"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -5.08 180)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3808,16 +3790,34 @@
 					)
 				)
 				(pin passive line
-					(at 30.48 0 180)
+					(at 30.48 -5.08 180)
 					(length 5.08)
-					(name "VDD"
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "LOOP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3916,6 +3916,18 @@
 			(symbol "BC846_0_1"
 				(polyline
 					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
@@ -3938,12 +3950,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -3960,17 +3971,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -3994,24 +3994,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "C"
@@ -4022,6 +4004,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4106,6 +4106,18 @@
 			(symbol "MMBT3906_0_1"
 				(polyline
 					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
@@ -4128,12 +4140,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4150,17 +4161,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -4184,24 +4184,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "C"
@@ -4212,6 +4194,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4294,18 +4294,6 @@
 			(symbol "IRF6655_0_1"
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
@@ -4318,7 +4306,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -4342,34 +4342,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -4400,6 +4376,63 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
@@ -4424,39 +4457,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "IRF6655_1_1"
 				(pin input line
@@ -4478,24 +4478,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "D"
@@ -4506,6 +4488,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4591,7 +4591,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -4603,7 +4603,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -4711,7 +4711,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -4723,7 +4723,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -4831,7 +4831,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -4843,7 +4843,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -4971,6 +4971,17 @@
 				)
 			)
 		)
+	)
+	(text "R1 use 10M for LND712 tube\nR1 use 4.99M for LND 7317 tube"
+		(exclude_from_sim no)
+		(at 248.285 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59870ee9-922a-4ee5-8d65-81c054b278b3")
 	)
 	(junction
 		(at 257.81 73.025)
@@ -8072,17 +8083,6 @@
 		)
 		(uuid "ffb99662-043d-4362-ab05-b5f25b174521")
 	)
-	(text "R1 use 10M for LND712 tube\nR1 use 4.99M for LND 7317 tube"
-		(exclude_from_sim no)
-		(at 248.285 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59870ee9-922a-4ee5-8d65-81c054b278b3")
-	)
 	(symbol
 		(lib_id "74xx:74HC14")
 		(at 67.31 73.025 0)
@@ -8137,6 +8137,15 @@
 		)
 		(property "LCSC Part #" "C232776"
 			(at 67.31 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C232776"
+			(at 67.31 64.9732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8265,6 +8274,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C232776"
+			(at 92.71 30.6832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8905a40f-4801-4c06-a1bc-23ef01ff58ac")
 		)
@@ -8379,6 +8397,15 @@
 		)
 		(property "LCSC Part #" "C232776"
 			(at 92.71 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C232776"
+			(at 92.71 48.4632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8507,6 +8534,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C232776"
+			(at 92.71 64.9732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b4a3b17-05ca-44e8-8cac-b74c7619be63")
 		)
@@ -8628,6 +8664,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C232776"
+			(at 92.71 82.7532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab56234a-ece7-462d-a260-e783ce5b3209")
 		)
@@ -8742,6 +8787,15 @@
 		)
 		(property "LCSC Part #" "C232776"
 			(at 92.71 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C232776"
+			(at 92.71 99.2632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8872,6 +8926,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C232776"
+			(at 26.162 34.3916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ba60013-c34e-4ef6-be75-82b4cda20072")
 		)
@@ -8993,6 +9056,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C151049"
+			(at 161.29 67.5386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6323c6c5-ab14-49a0-8586-17d02f82ac4e")
 		)
@@ -9074,6 +9146,15 @@
 		)
 		(property "LCSC Part #" "C151049"
 			(at 179.07 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151049"
+			(at 179.07 67.5386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9169,6 +9250,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C151049"
+			(at 196.85 67.5386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d51ba15-9f62-4f26-ada9-07ddb85a6519")
 		)
@@ -9250,6 +9340,15 @@
 		)
 		(property "LCSC Part #" "C151049"
 			(at 214.63 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151049"
+			(at 214.63 67.5386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9345,6 +9444,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C151049"
+			(at 232.41 67.5386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "23512973-9ae1-4554-94c8-90960ac68f9c")
 		)
@@ -9426,6 +9534,15 @@
 		)
 		(property "LCSC Part #" "C151049"
 			(at 143.51 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151049"
+			(at 143.51 67.5386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9521,6 +9638,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C151049"
+			(at 250.19 67.5386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08d40c6c-136c-4751-8dff-ad75955b7a82")
 		)
@@ -9609,6 +9735,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C710458"
+			(at 143.51 56.4642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ca5818b-3f16-4466-b7dd-f2e9177b2030")
 		)
@@ -9687,8 +9822,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2043159"
+		(property "LCSC Part #" " C5289366"
 			(at 115.57 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5289366"
+			(at 116.6876 48.8188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9904,8 +10048,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C844393"
+		(property "LCSC Part #" "C17438"
 			(at 101.6 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17438"
+			(at 103.378 130.2766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10058,6 +10211,15 @@
 		)
 		(property "LCSC Part #" "C1713"
 			(at 130.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 133.731 38.2016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10282,6 +10444,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C34719"
+			(at 145.288 99.1616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21ed0d8c-d8d6-4ab8-9386-98d70beb07a1")
 		)
@@ -10362,6 +10533,15 @@
 		)
 		(property "LCSC Part #" "C34719"
 			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C34719"
+			(at 129.6416 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10456,6 +10636,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C34719"
+			(at 119.4816 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51ab938f-fd3c-4371-9895-4e75994d6607")
 		)
@@ -10536,6 +10725,15 @@
 		)
 		(property "LCSC Part #" "C34719"
 			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C34719"
+			(at 108.0516 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10630,6 +10828,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C332788"
+			(at 32.893 162.027 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68bd28e2-1c9f-49a3-b3eb-ca9121978901")
 		)
@@ -10708,6 +10915,15 @@
 		)
 		(property "LCSC Part #" "C2652506"
 			(at 129.54 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2652506"
+			(at 129.54 134.8232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10835,6 +11051,15 @@
 		)
 		(property "LCSC Part #" "C2652506"
 			(at 83.82 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2652506"
+			(at 83.82 134.8232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10971,6 +11196,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2652506"
+			(at 166.497 153.7716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fdb9dcab-b975-4b1f-a78e-76846823b571")
 		)
@@ -11091,8 +11325,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C277515"
+		(property "LCSC Part #" "C83170"
 			(at 101.6 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C83170"
+			(at 104.521 148.0566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11189,6 +11432,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C515370"
+			(at 100.2284 18.0848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3dbd3d9-82e7-4fe1-9608-44900f82c0f7")
 		)
@@ -11267,6 +11519,15 @@
 		)
 		(property "LCSC Part #" "C282360"
 			(at 125.73 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C282360"
+			(at 125.73 124.6632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11426,6 +11687,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2157484"
+			(at 23.495 108.1532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "debe0657-ad20-43b6-a61d-0199058e826c")
 		)
@@ -11498,6 +11768,15 @@
 		)
 		(property "LCSC Part #" "C328380"
 			(at 71.12 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C328380"
+			(at 71.12 17.6022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11657,6 +11936,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1713"
+			(at 63.881 28.0416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20371faf-c2e0-4969-9930-e74241a1a5bb")
 		)
@@ -11807,6 +12095,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C328380"
+			(at 177.8 117.2972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50d87619-4809-4b38-9dd7-987dc84f2261")
 		)
@@ -11885,8 +12182,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C228266"
+		(property "LCSC Part #" " C2999465"
 			(at 40.64 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C228266"
+			(at 42.418 108.687 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11974,6 +12280,15 @@
 		)
 		(property "LCSC Part #" "C1713"
 			(at 171.45 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 174.371 132.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12263,6 +12578,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C96346"
+			(at 55.118 77.5716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5571db9c-f8d7-4bbc-bda4-eb95a154564e")
 		)
@@ -12348,6 +12672,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C282360"
+			(at 71.12 53.5432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8fda6331-017d-404b-8730-3e4fddff842f")
 		)
@@ -12424,8 +12757,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C161788"
+		(property "LCSC Part #" " C17414"
 			(at 60.96 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C161788"
+			(at 60.96 53.7972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12650,6 +12992,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C520084"
+			(at 44.196 68.6816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "190c1c09-48c3-49ed-9b02-b1c8555c7944")
 		)
@@ -12800,6 +13151,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C488845"
+			(at 259.715 79.197 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9e07db4-2ee2-4b58-82b7-730e0720d1b4")
 		)
@@ -12884,6 +13244,15 @@
 		)
 		(property "LCSC Part #" "C507907"
 			(at 195.58 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C507907"
+			(at 190.7286 134.0866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13100,8 +13469,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C242487"
+		(property "LCSC Part #" " C17633"
 			(at 161.29 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C242487"
+			(at 161.29 105.8672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13194,6 +13572,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C710458"
+			(at 232.41 56.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ca5818b-3f16-4466-b7dd-f2e9177b203a")
 		)
@@ -13274,6 +13661,15 @@
 		)
 		(property "LCSC Part #" "C1713"
 			(at 228.6 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 231.5211 99.8156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13523,6 +13919,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C154506"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c12e27a-03d7-4297-927d-3018d6677e8a")
 		)
@@ -13604,6 +14009,15 @@
 		)
 		(property "LCSC Part #" "C710458"
 			(at 205.74 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C710458"
+			(at 205.74 78.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13756,6 +14170,15 @@
 		)
 		(property "LCSC Part #" "C96346"
 			(at 193.04 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96346"
+			(at 194.8181 102.3556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13980,6 +14403,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C710458"
+			(at 241.3 78.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ca5818b-3f16-4466-b7dd-f2e9177b203b")
 		)
@@ -14058,6 +14490,15 @@
 		)
 		(property "LCSC Part #" "C710458"
 			(at 161.29 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C710458"
+			(at 161.29 56.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14210,6 +14651,15 @@
 		)
 		(property "LCSC Part #" "C710458"
 			(at 177.8 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C710458"
+			(at 177.8 56.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14569,6 +15019,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1713"
+			(at 35.306 59.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20371faf-c2e0-4969-9930-e74241a1a5ba")
 		)
@@ -14649,6 +15108,15 @@
 		)
 		(property "LCSC Part #" "C2057992"
 			(at 49.53 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2057992"
+			(at 51.435 133.9849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14808,8 +15276,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C97905"
+		(property "LCSC Part #" "C19110"
 			(at 19.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19110"
+			(at 21.971 155.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14969,6 +15446,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C710458"
+			(at 152.4 78.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ca5818b-3f16-4466-b7dd-f2e9177b2031")
 		)
@@ -15121,6 +15607,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C710458"
+			(at 135.89 78.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ca5818b-3f16-4466-b7dd-f2e9177b202f")
 		)
@@ -15202,6 +15697,15 @@
 		)
 		(property "LCSC Part #" "C20978"
 			(at 26.67 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20978"
+			(at 25.521 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15299,6 +15803,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C53444"
+			(at 230.0985 117.5956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e60d44c0-5637-419f-a592-22a464fc4dc5")
 		)
@@ -15380,6 +15893,15 @@
 		)
 		(property "LCSC Part #" "C328380"
 			(at 48.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C328380"
+			(at 48.26 41.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15539,6 +16061,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C328397"
+			(at 269.1194 121.7931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "33a1be83-4f99-440e-bfd7-d2ed228185ac")
 		)
@@ -15619,6 +16150,15 @@
 		)
 		(property "LCSC Part #" "C104108"
 			(at 207.01 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C104108"
+			(at 208.7881 123.9456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15778,6 +16318,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C710458"
+			(at 223.52 78.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ca5818b-3f16-4466-b7dd-f2e9177b2039")
 		)
@@ -15856,8 +16405,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1818"
+		(property "LCSC Part #" "C1717"
 			(at 252.73 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1717"
+			(at 255.6511 127.7556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15950,6 +16508,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C710458"
+			(at 213.36 56.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ca5818b-3f16-4466-b7dd-f2e9177b2038")
 		)
@@ -16028,6 +16595,15 @@
 		)
 		(property "LCSC Part #" "C96346"
 			(at 245.11 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96346"
+			(at 245.11 113.5188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16115,6 +16691,15 @@
 		)
 		(property "LCSC Part #" "C97905"
 			(at 200.66 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C97905"
+			(at 194.0561 123.9456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16347,7 +16932,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8922ec7e-dbdb-46e2-b032-9ae3b7a8a326")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0111"
 			(at 165.1 173.99 0)
 			(effects
 				(font
@@ -16397,7 +16982,7 @@
 		(instances
 			(project "SafePulse"
 				(path "/f260d189-94b1-4000-a377-01efa90805d9"
-					(reference "#PWR?")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -16542,6 +17127,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1713"
+			(at 146.431 25.5016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d89fc22-532a-4e65-baed-a468fb9ad6a4")
 		)
@@ -16622,6 +17216,15 @@
 		)
 		(property "LCSC Part #" "C352242"
 			(at 30.48 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C352242"
+			(at 32.893 170.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16869,6 +17472,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C107700"
+			(at 216.4081 137.9156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "478045b8-d181-42c4-9d35-10590b0b72b3")
 		)
@@ -17014,6 +17626,15 @@
 		)
 		(property "LCSC Part #" "C710458"
 			(at 170.18 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C710458"
+			(at 170.18 78.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17258,8 +17879,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C325883"
+		(property "LCSC Part #" "C865422"
 			(at 207.01 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C865422"
+			(at 208.7881 109.9756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17351,6 +17981,15 @@
 		)
 		(property "LCSC Part #" "C53444"
 			(at 212.09 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C53444"
+			(at 216.9415 117.5956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17641,6 +18280,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C710458"
+			(at 195.58 56.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ca5818b-3f16-4466-b7dd-f2e9177b2036")
 		)
@@ -17719,6 +18367,15 @@
 		)
 		(property "LCSC Part #" "C95781"
 			(at 236.855 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C95781"
+			(at 236.855 90.6588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17807,6 +18464,15 @@
 		)
 		(property "LCSC Part #" "C515370"
 			(at 115.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C515370"
+			(at 119.05 28.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18101,6 +18767,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C710458"
+			(at 187.96 78.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ca5818b-3f16-4466-b7dd-f2e9177b2035")
 		)
@@ -18181,6 +18856,15 @@
 		)
 		(property "LCSC Part #" "C317482"
 			(at 218.44 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C317482"
+			(at 220.2181 102.3556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18461,8 +19145,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C163977"
+		(property "LCSC Part #" "C17444"
 			(at 263.525 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17444"
+			(at 265.3031 127.7556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18682,6 +19375,15 @@
 		)
 		(property "LCSC Part #" "C332788"
 			(at 40.64 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C332788"
+			(at 45.847 116.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
