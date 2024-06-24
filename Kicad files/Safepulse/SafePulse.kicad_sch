@@ -3069,6 +3069,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -2.54)
@@ -3079,17 +3090,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -9762,6 +9762,7 @@
 	(symbol
 		(lib_id "2021-01-06_02-33-04:NRS6020T2R2NMGJ")
 		(at 115.57 57.785 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9769,7 +9770,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ffe44be")
 		(property "Reference" "L1"
-			(at 116.6876 48.8188 90)
+			(at 116.6876 66.7512 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9778,7 +9779,7 @@
 			)
 		)
 		(property "Value" "4.7uH"
-			(at 116.688 51.511 90)
+			(at 116.688 64.059 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9787,7 +9788,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_MD-4040"
-			(at 122.809 50.8 0)
+			(at 122.809 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9832,7 +9833,7 @@
 			)
 		)
 		(property "LCSC" "C5289366"
-			(at 116.6876 48.8188 0)
+			(at 116.6876 66.7512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17369,6 +17370,15 @@
 		)
 		(property "Digikey" "296-26814-1-ND"
 			(at 49.53 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2868527"
+			(at 52.07 160.6549 0)
 			(effects
 				(font
 					(size 1.27 1.27)

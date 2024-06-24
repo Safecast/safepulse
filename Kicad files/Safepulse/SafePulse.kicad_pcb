@@ -20821,6 +20821,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C2868527"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "914b9d81-736c-480e-98d4-fddd4b83547f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/9c97d579-0049-4b46-8e21-93af7367a466")
 		(sheetname "Root")
