@@ -3069,17 +3069,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -2.54)
@@ -3090,6 +3079,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -9831,7 +9831,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C167874"
+		(property "LCSC" " C5289366"
 			(at 116.6876 48.8188 0)
 			(effects
 				(font
@@ -10913,7 +10913,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2652506"
+		(property "LCSC Part #" "C56163"
 			(at 129.54 146.685 0)
 			(effects
 				(font
@@ -10922,7 +10922,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2652506"
+		(property "LCSC" "C56163"
 			(at 129.54 134.8232 0)
 			(effects
 				(font
@@ -11049,7 +11049,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2652506"
+		(property "LCSC Part #" "C56163"
 			(at 83.82 146.685 0)
 			(effects
 				(font
@@ -11058,7 +11058,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2652506"
+		(property "LCSC" "C56163"
 			(at 83.82 134.8232 0)
 			(effects
 				(font
@@ -11187,7 +11187,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2652506"
+		(property "LCSC Part #" "C56163"
 			(at 156.21 147.955 0)
 			(effects
 				(font
@@ -11196,7 +11196,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2652506"
+		(property "LCSC" "C56163"
 			(at 166.497 153.7716 0)
 			(effects
 				(font
@@ -12191,7 +12191,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C322256"
+		(property "LCSC" "C228266"
 			(at 42.418 108.687 0)
 			(effects
 				(font
@@ -12766,7 +12766,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" "C161788"
 			(at 60.96 53.7972 0)
 			(effects
 				(font
@@ -13478,7 +13478,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17633"
+		(property "LCSC" "C242487"
 			(at 161.29 105.8672 0)
 			(effects
 				(font
@@ -17376,15 +17376,6 @@
 		)
 		(property "Digikey" "296-26814-1-ND"
 			(at 49.53 156.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2868527"
-			(at 52.07 160.6549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
