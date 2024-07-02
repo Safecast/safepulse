@@ -7385,7 +7385,7 @@
 		(descr "Inductor, Taiyo Yuden, MD series, Taiyo-Yuden_MD-4040, 4.0mmx4.0mm")
 		(tags "inductor taiyo-yuden md smd")
 		(property "Reference" "L1"
-			(at 2.75 0 360)
+			(at 2.75 0 0)
 			(layer "F.SilkS")
 			(uuid "2c0671fa-594e-4e46-9efc-fba83b3307fe")
 			(effects
@@ -7458,7 +7458,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C359308"
+		(property "LCSC Part #" " C5289366"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7470,7 +7470,7 @@
 				)
 			)
 		)
-		(property "LCSC" " C359308"
+		(property "LCSC" "C359308"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7733,7 +7733,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C242487"
+		(property "LCSC" "C1739"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17126,7 +17126,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C228266"
+		(property "LCSC" "C101434"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20603,7 +20603,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C161788"
+		(property "LCSC" "C17414"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20840,6 +20840,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3cd0c9d5-fa76-4502-a305-54e5983f5403")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2868527"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b09757eb-647f-4eed-8109-1ad374109ef7")
 			(effects
 				(font
 					(size 1 1)

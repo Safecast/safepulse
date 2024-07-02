@@ -9831,7 +9831,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C5289366"
+		(property "LCSC" "C359308"
 			(at 116.6876 48.8188 0)
 			(effects
 				(font
@@ -17376,6 +17376,15 @@
 		)
 		(property "Digikey" "296-26814-1-ND"
 			(at 49.53 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2868527"
+			(at 52.07 160.6549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
