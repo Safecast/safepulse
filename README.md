@@ -30,7 +30,7 @@ SafePulse is a project aimed at creating a fully open-source high-voltage power 
 
 The SafePulse journey began with Safecast's need for a high-performance HVPS that exceeded existing market solutions. Dan Sythe of International Medcom played a pivotal role in guiding the development process, providing components like the iRover—a commercial-grade miniature HVPS recognized by the IAEA.
 
-While the iRover set a benchmark for reliability, SafePulse was developed to surpass its capabilities. Using an open-source design based on a HEX CMOS inverter oscillator, MOSFET switch, and Cockcroft-Walton multiplier, the initial design achieved low power consumption (80 µA). However, challenges such as double pulses to the CPU and high count rate predictability led to refinements, including adding a multivibrator for fixed pulse widths.
+While the iRover set a benchmark for reliability, SafePulse was developed to surpass its capabilities. Using an open-source design based on a HEX CMOS inverter oscillator, MOSFET switch, and Cockcroft-Walton multiplier, the initial design achieved low power consumption (80 µA). However, challenges such as double pulses to the CPU and high count rate predictability led to refinements, including adding a multivibrator for fixed pulse widths. Future developments will feature an I2C counter along with a connector for it.
 
 SafePulse evolved into a compact 4-layer design to meet size constraints while ensuring consistent performance across component substitutions.
 
