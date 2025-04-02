@@ -1,6 +1,6 @@
 # SafePulse
 
-An open-source high-voltage power supply (HVS) and pulse counter designed for Geiger tubes.
+An open-source high-voltage power supply (HVPS) and pulse counter designed for Geiger tubes.
 
 ## Overview
 
