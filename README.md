@@ -1,3 +1,4 @@
+
 # SafePulse
 
 An open-source high-voltage power supply (HVPS) and pulse counter designed for Geiger tubes.
@@ -55,3 +56,65 @@ To work with SafePulse, ensure you have the following tools and components:
 ### Installation
 
 1. **Clone the Repository**:
+```
+
+git clone https://github.com/Safecast/safepulse.git
+
+```
+
+2. **Open with KiCad**:
+- Launch KiCad.
+- Open the `SafePulse.kicad_pro` project file from the cloned repository.
+
+3. **Review and Modify**:
+- Access schematics and PCB layouts.
+- Make desired modifications or improvements.
+
+---
+
+## Documentation
+
+Detailed schematics and design documents are available in the repository. Refer to the [SafePulse.pdf](https://github.com/Safecast/safepulse/blob/main/SafePulse.pdf) file for comprehensive information.
+
+---
+
+## Contributing
+
+Contributions are welcome! Follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+```
+
+git checkout -b feature-name
+
+```
+3. Commit your changes:
+```
+
+git commit -m "Add feature"
+
+```
+4. Push to your forked repository:
+```
+
+git push origin feature-name
+
+```
+5. Submit a pull request detailing your changes.
+
+Please ensure contributions align with project objectives and coding standards.
+
+---
+
+## Issues and Support
+
+For issues or questions, visit the [GitHub Issues](https://github.com/Safecast/safepulse/issues) section of the repository.
+
+---
+
+## License
+
+This project is licensed under the MIT License. You are free to use, modify, and distribute this software under its terms.
+```
+
