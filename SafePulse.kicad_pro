@@ -418,6 +418,7 @@
       "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
+      "duplicate_pins": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
@@ -427,6 +428,7 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
       "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
@@ -440,12 +442,16 @@
       "overlapping_rule_areas": "error",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -472,6 +478,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -482,13 +489,13 @@
         "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3302,
         "via_diameter": 0.8,
@@ -497,7 +504,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": {
       "GND": "rgb(16, 255, 34)"
@@ -518,7 +525,7 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "OpenHVPS-5.dsn",
-      "step": "",
+      "step": "SafePulse.step",
       "svg": "",
       "vrml": "SafePulse.wrl"
     },
@@ -681,7 +688,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "Pcbnew",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
