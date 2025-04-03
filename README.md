@@ -1,7 +1,7 @@
 
 # SafePulse
 
-An open-source high-voltage power supply (HVPS) and pulse counter designed for Geiger tubes.
+An open-source high-voltage power supply (HVPS) and pulse counter designed for Geiger tubes. The Safepulse is utilized in the newest version of Safecast devices, the [bGeigieZen](https://bgeigiezen.safecast.jp)
 
 ![Safepulse V1 2 5](https://github.com/user-attachments/assets/01187aea-f0d5-4131-9eaa-2dc47d206e59)
 ---
