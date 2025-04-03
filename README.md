@@ -3,6 +3,7 @@
 
 An open-source high-voltage power supply (HVPS) and pulse counter designed for Geiger tubes.
 
+![Safepulse V1 2 5](https://github.com/user-attachments/assets/01187aea-f0d5-4131-9eaa-2dc47d206e59)
 ---
 
 ## Table of Contents
@@ -49,6 +50,7 @@ SafePulse evolved into a compact 4-layer design to meet size constraints while e
 ### Prerequisites
 
 To work with SafePulse, ensure you have the following tools and components:
+
 
 - [KiCad](https://www.kicad.org/): Open-source electronic design automation software.
 - Electronic components listed in the project's bill of materials (BOM).
