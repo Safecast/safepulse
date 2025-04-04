@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "SafePulse High Voltage Geiger Muller Power Supply")
-		(date "2025-04-04")
+		(date "2025-04-05")
 		(rev "1.2.6")
 		(company "SafeCast Team")
 		(comment 1 "4 Layer Version With Counter")
@@ -13533,7 +13533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104M125AE/2616394"
+		(property "Datasheet" "~"
 			(at 232.41 62.865 0)
 			(effects
 				(font
@@ -13542,7 +13542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 232.41 62.865 0)
 			(effects
 				(font
@@ -16476,7 +16476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7T2E104M125AE/2616394"
+		(property "Datasheet" "~"
 			(at 213.36 62.865 0)
 			(effects
 				(font
@@ -16485,7 +16485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 213.36 62.865 0)
 			(effects
 				(font
