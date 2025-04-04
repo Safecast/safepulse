@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "SafePulse High Voltage Geiger Muller Power Supply")
-		(date "2025-04-03")
+		(date "2025-04-04")
 		(rev "1.2.6")
 		(company "SafeCast Team")
 		(comment 1 "4 Layer Version With Counter")
