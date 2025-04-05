@@ -4962,6 +4962,28 @@
 		)
 		(uuid "59870ee9-922a-4ee5-8d65-81c054b278b3")
 	)
+	(text "SCL"
+		(exclude_from_sim no)
+		(at 15.2939 89.3831 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 33 84 42 1)
+			)
+		)
+		(uuid "6587a043-2880-403c-bfb5-25ca93411133")
+	)
+	(text "SDA"
+		(exclude_from_sim no)
+		(at 15.2089 91.8464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 33 84 42 1)
+			)
+		)
+		(uuid "a131db44-9849-4fff-b33b-d0ae4005a9fc")
+	)
 	(junction
 		(at 257.81 73.025)
 		(diameter 1.016)
@@ -8059,26 +8081,6 @@
 			(type solid)
 		)
 		(uuid "ffb99662-043d-4362-ab05-b5f25b174521")
-	)
-	(label "SDA"
-		(at 13.97 93.345 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2a92580-7489-4244-83b5-f72b0e8e59e5")
-	)
-	(label "SCL"
-		(at 13.97 90.805 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "adcfc432-3005-4d69-8001-0f63ad360608")
 	)
 	(symbol
 		(lib_id "74xx:74HC14")

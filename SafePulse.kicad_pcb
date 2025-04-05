@@ -1171,7 +1171,7 @@
 			(uuid "245c76c7-a852-4920-8e69-70fb5bc5d7aa")
 		)
 		(fp_text user "${VALUE}"
-			(at -1.19 -2.22 0)
+			(at -1.6764 -2.22 0)
 			(layer "B.SilkS")
 			(uuid "bb0e27aa-894b-49b9-9378-2b5101a7762d")
 			(effects
@@ -1341,7 +1341,7 @@
 			(uuid "ea2e742a-990e-4cb2-988f-89ed8c0e29c3")
 		)
 		(fp_text user "${VALUE}"
-			(at -2.22 1.25 0)
+			(at -2.2352 1.5748 0)
 			(layer "B.SilkS")
 			(uuid "7ad31227-7326-4459-83ab-0fae9fa46aa8")
 			(effects
@@ -4528,7 +4528,7 @@
 			)
 		)
 		(property "Value" "Cathode"
-			(at 0.17 2.06 0)
+			(at 0.1524 1.9304 0)
 			(layer "F.SilkS")
 			(uuid "9d4d55b5-caa9-46f5-b9a4-285f0acad0c4")
 			(effects
@@ -21475,7 +21475,7 @@
 		(uuid "e3c16099-023a-4389-bfce-cbb1514b8ad0")
 	)
 	(gr_text "SCL\n"
-		(at 136.07 77.325 0)
+		(at 136.2216 77.2922 0)
 		(layer "F.SilkS")
 		(uuid "27617e19-ed59-4c25-aeaa-763bac9e9aa2")
 		(effects
@@ -21553,7 +21553,7 @@
 		)
 	)
 	(gr_text "SCL"
-		(at 136.07 76.925 0)
+		(at 136.12 77.2414 0)
 		(layer "B.SilkS")
 		(uuid "3526b444-48bc-4b32-b495-3a253eb67733")
 		(effects
@@ -21601,7 +21601,7 @@
 		)
 	)
 	(gr_text "SDA"
-		(at 138.77 76.925 0)
+		(at 138.8124 77.2922 0)
 		(layer "B.SilkS")
 		(uuid "a81f9eb5-592b-44dd-b8c3-7acc2d5c4251")
 		(effects
