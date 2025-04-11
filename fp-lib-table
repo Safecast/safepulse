@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
   (lib (name "Library1")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty/Library1.pretty")(options "")(descr ""))
+  (lib (name "RFT_EFS-Steckverbinder")(type "KiCad")(uri "/home/rob/Documents/kicad/footprints/RFT_EFS-Steckverbinder.pretty")(options "")(descr ""))
+  (lib (name "RFT_sonstiges")(type "KiCad")(uri "/home/rob/Documents/kicad/footprints/RFT_sonstiges.pretty")(options "")(descr ""))
 )
