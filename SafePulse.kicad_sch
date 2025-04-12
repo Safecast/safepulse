@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "SafePulse High Voltage Geiger Muller Power Supply")
-		(date "2025-04-05")
+		(date "2025-04-12")
 		(rev "1.2.6")
 		(company "SafeCast Team")
 		(comment 1 "4 Layer Version With Counter")
@@ -11279,7 +11279,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "1nF"
 			(at 104.521 150.368 0)
 			(effects
 				(font
@@ -11297,7 +11297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/avx-corporation/08055C102KAT2A/563481"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810311439_YAGEO-CC0805KRX7R9BB102_C94121.pdf"
 			(at 101.6 149.225 0)
 			(effects
 				(font
@@ -11324,7 +11324,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C83170"
+		(property "LCSC Part #" " C94121"
 			(at 101.6 149.225 0)
 			(effects
 				(font
@@ -11333,7 +11333,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C83170"
+		(property "LCSC" " C94121"
 			(at 104.521 148.0566 0)
 			(effects
 				(font
