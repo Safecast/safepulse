@@ -11459,7 +11459,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5nF"
+		(property "Value" "1nF"
 			(at 0 1.68 180)
 			(layer "F.Fab")
 			(hide yes)
