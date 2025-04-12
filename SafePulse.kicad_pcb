@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "SafePulse High Voltage Geiger Muller Power Supply")
-		(date "2025-04-03")
-		(rev "V1.2.6")
+		(date "2025-04-12")
+		(rev "V2.0.0")
 		(comment 1 "Double Sided Version With Counter")
 	)
 	(layers
@@ -142,7 +142,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -11482,18 +11481,6 @@
 			(layer "F.Fab")
 			(uuid "c2ce9d41-9271-4f82-85ef-d5bb923b8ac1")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4a7bfa8f-2583-4cb0-b926-055a271d9049")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
 		(pad "1" smd rect
 			(at -1.938 -0.975 270)
 			(size 0.45 1.075)
@@ -17926,19 +17913,6 @@
 			(layer "B.Fab")
 			(uuid "f25e3236-f81e-4c14-ab12-ff1c21fadd7e")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "56178606-ff79-40f0-98e2-87e74654193c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-				(justify mirror)
-			)
-		)
 		(pad "1" smd rect
 			(at -1.5 1.975 90)
 			(size 0.6 1.55)
@@ -21511,7 +21485,7 @@
 			)
 		)
 	)
-	(gr_text "SAFEPULSE V1.2.6\n"
+	(gr_text "SAFEPULSE V2.0.0\n"
 		(at 157.02 67.825 0)
 		(layer "F.SilkS")
 		(uuid "3ebc5d57-51bd-46f0-9bb9-21f78199ea5e")
@@ -21614,7 +21588,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "SAFEPULSE V1.2.6\n"
+	(gr_text "SAFEPULSE V2.0.0\n"
 		(at 130.87 77.365 0)
 		(layer "B.SilkS")
 		(uuid "7ce08191-9205-414e-9c50-a89041274ec3")
