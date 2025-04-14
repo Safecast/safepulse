@@ -19,28 +19,7 @@
       },
       "measurements": [],
       "showGrid": true,
-      "traces": [
-        {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(/Anode) (phase)",
-          "trace_type": 517
-        },
-        {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(/Anode) (gain)",
-          "trace_type": 521
-        },
-        {
-          "color": "rgb(55, 126, 184)",
-          "signal": "V(/cathode) (phase)",
-          "trace_type": 517
-        },
-        {
-          "color": "rgb(55, 126, 184)",
-          "signal": "V(/cathode) (gain)",
-          "trace_type": 521
-        }
-      ]
+      "traces": []
     }
   ],
   "user_defined_signals": [],
