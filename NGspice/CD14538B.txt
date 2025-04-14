@@ -1,0 +1,97 @@
+* Source File: CD14538BBlk-4.asc
+* Developed: ETech (eetech00@yahoo.com)
+* Created: Dec 04 2017
+* Revision: Aug 03 2020
+*
+* This CD14538B spice behavioral model was tested
+* with LTSpice. Temperature is not modeled.
+*
+* Texas Instruments
+* CD14538B CMOS Dual Precision Monostable Multivibrator
+*
+* block symbol definitions
+.subckt CD14538B +TR -TR _RST CX CRX Q _Q VDD VGND
+A6 0 Q1 0 QS 0 QR 0 0 OR tau={tau} tripdt={tdt}
+A7 0 CMP2 POR+R QR 0 QS 0 0 OR tau={tau} tripdt={tdt}
+XX1 D _CL CL _POR+R CMP1 Q1 _Q1 ff params: Tau={tau} Tdt={tdt} Td=1n
+A4 QR 0 0 0 0 _QR 0 0 BUF tau={tau} tripdt={tdt}
+A10 _QR1 0 0 0 0 QR2 0 0 BUF tau={tau} tripdt={tdt}
+A11 QR1 0 0 0 0 _QR1 0 0 BUF tau={tau} tripdt={tdt}
+A13 0 _+TR 0 -TR-1 0 CLK 0 0 AND tau={tau} tripdt={tdt}
+A15 0 POR 0 R 0 _POR+R 0 0 OR tau={tau} tripdt={tdt}
+A17 _QR 0 0 0 0 QR1 0 0 BUF tau={tau} tripdt={tdt}
+A1 CMP RLO 0 0 0 0 C1 0 SCHMITT vt=0.0 vh=100u tau={tau} tripdt={tdt}
+A3 _Q1 0 0 0 0 Q2 0 0 BUF tau={tau} tripdt={tdt}
+V1 1 0 1
+A5 CMP RHI 0 0 0 0 C2 0 SCHMITT vt=0.0 vh=100u tau={tau} tripdt={tdt}
+A19 _POR+R 0 0 0 0 POR+R 0 0 BUF tau={tau} tripdt={tdt}
+S2 C2A CMP2 _QR 0 SW
+XX2 QR2 _QR2 QR1 inv2 params: tau={tau} tripdt={tdt} Tau={tau} Tdt={tdt} vhigh={lh}
+V3 Qout _QR 0
+V4 _Qout QR 0
+R1 RHI CX1 754.5k
+R2 VDD2 RHI 245.5k
+S3 VGND CX1 3P 3N CSW
+AE1 _QR 0 0 0 0 3N 3P 0 BUF tau={tau} tripdt={tdt}
+R3 RLO VGND 333.3k
+R4 P001 RLO 666.6k
+S4 P001 VDD2 4P 4N CSW
+AE2 _Q1 0 0 0 0 4P 4N 0 BUF tau={tau} tripdt={tdt}
+R6 CMP CRX 100
+S7 VGND PO 7P 7N SW4
+AE5 CTL 0 0 0 0 7N 7P 0 BUF tau={tau} tripdt={tdt}
+B2 CTL 0 V=If(V(VDD,VGND)>0.5*V(VDD),1,0)
+C2 VDD2 PO 100p
+XX5 Qout _Q VGND VDD2 cd40_out_10a params: Tau={tau} Tdt={tdt} Td={tdo} Lh={lh}
+XX6 _Qout Q VGND VDD2 cd40_out_10a params: Tau={tau} Tdt={tdt} Td={tdo} Lh={lh}
+XX7 _RST R VDD2 VGND cd40_in_11 params: Tau={tau} Tdt={tdt} Td={td} Lh={lh}
+B3 VD2 VGND V=V(VDD,VGND)
+R9 VDD VGND R=Limit(200k,QRes(),1e6)
+E1 VDD2 VGND VD2 VGND 1
+C5 10 VGND 10p
+R10 VD2 10 100
+B1 POR 0 V=If(V(PO)>0.5*V(VDD,VGND),1,0)
+S8 D 1 8P 8N SW
+AE6 CL 0 0 0 0 8P 8N 0 BUF tau={tau} tripdt={tdt}
+R12 CMP2 0 100k
+XX8 CLK _CL CL cd40_clk_1 params: Tau={tau} Tdt={tdt} Td=1n
+D1 CRX VDD2 DIO1
+D2 VGND CRX DIO1
+V5 CX VGND 0
+A8 _-TR 0 0 0 0 -TR-1 0 0 BUF tau={tau} tripdt={tdt}
+XX11 C2 _QR2 C2A QR1 cd40_tg_10 params: tau={tau} tdt={tdt} td={td}
+XX12 C1 _Q1 CMP1 Q1 cd40_tg_10 params: tau={tau} tdt={tdt} td={td}
+R7 D 0 1Meg
+XX3 +TR _+TR VDD2 VGND cd40_in_s_2 params: Tau={tau} Tdt={tdt} Td={td} Lh={lh}
+XX4 -TR _-TR VDD2 VGND cd40_in_s_2 params: Tau={tau} Tdt={tdt} Td={td} Lh={lh}
+M2 NDPD NG VGND VGND NMOS1
+M1 NDPD PG VDD2 VDD2 PMOS1
+R8 PG1 PG 100
+R11 NG1 NG 100
+B4 NG1 VGND V=V(VDD2)*V(Q2,0)
+R13 Q2 0 1Meg
+B5 PG1 VDD2 V=V(VDD2)*V(_QR,0)
+R14 _QR 0 1Meg
+R15 PG VDD2 50k
+R16 VGND NG 50k
+R5 CRX NDPD 100
+.model SW SW(Ron={Ron} Roff={Roff} Vt=0.5 Vh=-0.4)
+.param tau = 10n
+.param tdt = 1n
+.param td = 2n
+.param lh = 1
+.param tdo = 150n
+.model SW4 SW(RON=1e4 ROFF=1G VT=0.5 VH=-0.1)
+.ic V(Q1)=0 V(_Q1)=1
+.param Ron=1 Roff=10Meg
+.func QRes () {V(VDD)/If(V(VDD)<=5,5uA,If(V(VDD)<=10,10uA,if(V(VDD)<=15,20uA,100uA)))}
+.model CSW SW(Ron={Ron} Roff={Roff} Vt=0.5 Vh=-0.4)
+.MODEL NMOS1 NMOS ( LEVEL=3  W=500e-6  L=4E-6  VTO=1
++ VMAX=1E6  RS=10  RD=10  CJ=0.002  MJ=0.4
++THETA=1E-6 ETA=0.01  KAPPA=2.2)
+.MODEL PMOS1 PMOS ( LEVEL=3  W=500e-6  L=4E-6  VTO=-1
++ VMAX=1E6  RS=10  RD=10  CJ=0.002  MJ=0.4
++THETA=1E-6 ETA=0.01  KAPPA=2.2)
+.MODEL DIO1 D (IS=10p RS=10 N=1.75 M=0.4 Cjo=6p TT=20n)
+.ends CD14538B
+

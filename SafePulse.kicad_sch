@@ -8082,6 +8082,26 @@
 		)
 		(uuid "ffb99662-043d-4362-ab05-b5f25b174521")
 	)
+	(label "Anode"
+		(at 271.78 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e6d8877-66da-43de-b743-0d5e48c2fdd3")
+	)
+	(label "cathode"
+		(at 278.765 118.6768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9e1c034-72e8-479e-ae1e-fb42a2ae8518")
+	)
 	(symbol
 		(lib_id "74xx:74HC14")
 		(at 67.31 73.025 0)
@@ -8145,6 +8165,42 @@
 		)
 		(property "LCSC" "C232776"
 			(at 67.31 64.9732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "NGspice/74HC.LIB"
+			(at 67.31 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "74HC14"
+			(at 67.31 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 67.31 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=in 2=out"
+			(at 67.31 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8255,15 +8311,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "296-9179-1-ND"
-			(at 92.71 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C232776"
 			(at 92.71 38.735 0)
 			(effects
@@ -8275,6 +8322,42 @@
 		)
 		(property "LCSC" "C232776"
 			(at 92.71 30.6832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "NGspice/74HC.LIB"
+			(at 92.71 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "74HC14"
+			(at 92.71 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 92.71 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=in 2=out"
+			(at 92.71 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8385,15 +8468,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "296-9179-1-ND"
-			(at 92.71 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C232776"
 			(at 92.71 56.515 0)
 			(effects
@@ -8405,6 +8479,42 @@
 		)
 		(property "LCSC" "C232776"
 			(at 92.71 48.4632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "NGspice/74HC.LIB"
+			(at 92.71 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "74HC14"
+			(at 92.71 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 92.71 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=in 2=out"
+			(at 92.71 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8515,15 +8625,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "296-9179-1-ND"
-			(at 92.71 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C232776"
 			(at 92.71 73.025 0)
 			(effects
@@ -8535,6 +8636,42 @@
 		)
 		(property "LCSC" "C232776"
 			(at 92.71 64.9732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "NGspice/74HC.LIB"
+			(at 92.71 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "74HC14"
+			(at 92.71 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 92.71 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=in 2=out"
+			(at 92.71 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8645,15 +8782,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "296-9179-1-ND"
-			(at 92.71 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C232776"
 			(at 92.71 90.805 0)
 			(effects
@@ -8665,6 +8793,42 @@
 		)
 		(property "LCSC" "C232776"
 			(at 92.71 82.7532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "NGspice/74HC.LIB"
+			(at 92.71 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "74HC14"
+			(at 92.71 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 92.71 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=in 2=out"
+			(at 92.71 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8775,15 +8939,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "296-9179-1-ND"
-			(at 92.71 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C232776"
 			(at 92.71 107.315 0)
 			(effects
@@ -8795,6 +8950,42 @@
 		)
 		(property "LCSC" "C232776"
 			(at 92.71 99.2632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "NGspice/74HC.LIB"
+			(at 92.71 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "74HC14"
+			(at 92.71 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 92.71 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=in 2=out"
+			(at 92.71 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8907,15 +9098,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "296-9179-1-ND"
-			(at 20.32 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C232776"
 			(at 20.32 35.56 0)
 			(effects
@@ -8927,6 +9109,42 @@
 		)
 		(property "LCSC" "C232776"
 			(at 26.162 34.3916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "NGspice/74HC.LIB"
+			(at 20.32 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "74HC14"
+			(at 20.32 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 20.32 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=in 2=out"
+			(at 20.32 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9064,6 +9282,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "NGspice/BAV23S.spice.txt"
+			(at 161.29 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "DI_BAV23S"
+			(at 161.29 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 161.29 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 161.29 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6323c6c5-ab14-49a0-8586-17d02f82ac4e")
 		)
@@ -9154,6 +9408,42 @@
 		)
 		(property "LCSC" "C151049"
 			(at 179.07 67.5386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "NGspice/BAV23S.spice.txt"
+			(at 179.07 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "DI_BAV23S"
+			(at 179.07 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 179.07 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 179.07 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9258,6 +9548,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "NGspice/BAV23S.spice.txt"
+			(at 196.85 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "DI_BAV23S"
+			(at 196.85 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 196.85 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 196.85 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d51ba15-9f62-4f26-ada9-07ddb85a6519")
 		)
@@ -9348,6 +9674,42 @@
 		)
 		(property "LCSC" "C151049"
 			(at 214.63 67.5386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "NGspice/BAV23S.spice.txt"
+			(at 214.63 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "DI_BAV23S"
+			(at 214.63 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 214.63 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 214.63 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9452,6 +9814,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "NGspice/BAV23S.spice.txt"
+			(at 232.41 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "DI_BAV23S"
+			(at 232.41 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 232.41 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 232.41 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "23512973-9ae1-4554-94c8-90960ac68f9c")
 		)
@@ -9549,6 +9947,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "NGspice/BAV23S.spice.txt"
+			(at 143.51 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "DI_BAV23S"
+			(at 143.51 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 143.51 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d39fbf36-317a-4999-95aa-ba430b799bda")
 		)
@@ -9639,6 +10073,42 @@
 		)
 		(property "LCSC" "C151049"
 			(at 250.19 67.5386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "NGspice/BAV23S.spice.txt"
+			(at 250.19 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "DI_BAV23S"
+			(at 250.19 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 250.19 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 250.19 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10855,7 +11325,7 @@
 		(lib_id "4xxx:4538")
 		(at 129.54 146.685 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10930,6 +11400,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "NGspice/CD14538B.txt"
+			(at 129.54 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "CD14538B"
+			(at 129.54 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 129.54 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+TR 2=-TR 3=_RST 4=CX 5=CRX 6=Q 7=_Q 8=VDD 9=VGND"
+			(at 129.54 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bcf1dec1-c6d2-4bfb-bbce-6ee9c939dacb")
 		)
@@ -10991,7 +11497,7 @@
 		(lib_id "4xxx:4538")
 		(at 83.82 146.685 0)
 		(unit 2)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11059,6 +11565,42 @@
 		)
 		(property "LCSC" "C56163"
 			(at 83.82 134.8232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "NGspice/CD14538B.txt"
+			(at 83.82 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "CD14538B"
+			(at 83.82 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 83.82 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+TR 2=-TR 3=_RST 4=CX 5=CRX 6=Q 7=_Q 8=VDD 9=VGND"
+			(at 83.82 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11197,6 +11739,42 @@
 		)
 		(property "LCSC" "C56163"
 			(at 166.497 153.7716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "NGspice/CD14538B.txt"
+			(at 156.21 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "CD14538B"
+			(at 156.21 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 156.21 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+TR 2=-TR 3=_RST 4=CX 5=CRX 6=Q 7=_Q 8=VDD 9=VGND"
+			(at 156.21 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11362,7 +11940,7 @@
 		(lib_id "Device:Ferrite_Bead")
 		(at 101.6 22.86 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11534,6 +12112,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "NGspice/BAS16.spice.txt"
+			(at 125.73 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "DI_MMBD4148"
+			(at 125.73 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 125.73 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 125.73 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec22e30d-c343-4bee-8519-40274ca6554e")
 		)
@@ -11688,6 +12302,24 @@
 		)
 		(property "LCSC" "C5267733"
 			(at 24.765 108.1532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 24.765 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 24.765 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12680,6 +13312,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "NGspice/BAS16.spice.txt"
+			(at 71.12 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "DI_MMBD4148"
+			(at 71.12 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 71.12 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 71.12 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8fda6331-017d-404b-8730-3e4fddff842f")
 		)
@@ -13259,6 +13927,51 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "NGspice/BC846A.spice.txt"
+			(at 195.58 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "DI_BC846A"
+			(at 195.58 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 195.58 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 195.58 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 195.58 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1bc6c58c-2a6c-4827-b708-885e6b8cc66e")
 		)
@@ -13695,7 +14408,7 @@
 		(lib_id "4208:4208")
 		(at 148.59 189.865 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -13927,6 +14640,33 @@
 		)
 		(property "LCSC" "C154506"
 			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 113.03 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 113.03 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 3=G 4=S"
+			(at 113.03 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14531,7 +15271,7 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 271.78 95.885 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -15130,6 +15870,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "NGspice/Tl072.mod"
+			(at 49.53 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "TL072"
+			(at 49.53 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 49.53 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5"
+			(at 49.53 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "003d28e0-9596-4796-9343-3a0e6dbbcadb")
 		)
@@ -15480,7 +16256,7 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 278.765 112.395 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -15641,7 +16417,7 @@
 		(lib_id "Device:Polyfuse_Small")
 		(at 26.67 81.915 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -15811,6 +16587,51 @@
 		)
 		(property "LCSC" "C53444"
 			(at 230.0985 117.5956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "NGspice/MMBT3906.txt"
+			(at 234.95 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "DI_MMBT3906"
+			(at 234.95 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 234.95 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 234.95 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 234.95 118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16998,7 +17819,7 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 278.765 95.885 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -17579,7 +18400,7 @@
 		(lib_id "S-35770E01I-K8T2U:S-35770E01I-K8T2U")
 		(at 79.375 179.705 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -17916,6 +18737,51 @@
 		)
 		(property "LCSC" "C53444"
 			(at 216.9415 117.5956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "NGspice/MMBT3906.txt"
+			(at 212.09 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "DI_MMBT3906"
+			(at 212.09 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 212.09 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 212.09 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 212.09 118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18328,7 +19194,7 @@
 		(lib_id "Device:Ferrite_Bead")
 		(at 115.57 29.21 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -18425,7 +19291,7 @@
 		(lib_id "Connector:Conn_01x05_Pin")
 		(at 17.78 86.995 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
