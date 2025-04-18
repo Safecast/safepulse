@@ -1,0 +1,37 @@
+Test for 4538 model
+
+.param VDDp = 5
+.param Rx1p = 40k
+.param Cx1p = 10n
+.csparam timeset = 'Rx1p*Cx1p*0.7'
+
+.include CD4538BCN.lib
+
+VDD vdd 0 {VDDp}
+Rx1 T2 vdd {Rx1p}
+Cx1 T2 T1 {Cx1p}
+
+* CD A B T1 T2 Q NOTQ VDD VSS
+Xcd4538 CD A vdd T1 T2 Q NOTQ vdd 0 4538
+
+* both voltages (input clock and re-trigger) are in series
+Vin A retrig dc 0 PULSE (0 {VDDp} 100n 10n 10n 200n 1m)
+* re-trigger fourth output pulse
+Vinretrigger  retrig 0 dc 0 PULSE (0 {VDDp} 3.3m 10n 10n 200n 1)
+
+* reset second output pulse
+Vreset CD 0 dc {VDDp} PULSE ({VDDp} 0 1.2m 10n 10n 500u 1)
+
+.control
+tran 1u 5m
+set xbrushwidth=2
+plot v(A) v(Q) v(CD)
+display
+echo pulse width set to $&timeset s
+* measure width of first output pulse
+meas tran tdiff TRIG v(q) VAL={0.5*VDDp} RISE=1 TARG v(q) VAL={0.5*VDDp} FALL=1
+plot v(q)
+rusage
+.endc
+
+.end

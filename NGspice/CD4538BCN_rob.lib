@@ -1,0 +1,65 @@
+
+* (DUAL) RETRIGGERABLE MONOSTABLE MULTIVIBRATOR
+* Pulse Width Tw = R * C
+* tpd R,A,B->Q     300n
+* tr 100n
+* Tpulse 75n, C=0, Rext=5k
+.SUBCKT CD14538B  A B CLR  CGND RC  Q QN  VDD VGND  vdd1={vdd} speed1={speed} tripdt1={tripdt}
+.param egain=1/{vdd1}
+.param td5=1e-9*(50)*5.0/{vdd1}*{speed1}
+.param td2=1e-9*(20)*5.0/{vdd1}*{speed1}
+*
+XINA    A   Ai    VDD VGND  CD40_IN_1  vdd2={vdd1}  speed2={speed1}  tripdt2={tripdt1} 
+XINB    B   Bi    VDD VGND  CD40_IN_1  vdd2={vdd1}  speed2={speed1}  tripdt2={tripdt1} 
+XINCLR  CLR CLRi  VDD VGND  CD40_IN_1  vdd2={vdd1}  speed2={speed1}  tripdt2={tripdt1} 
+XINRC1  RC  RCi   VDD VGND  CD40_IN_0  vdd2={vdd1}  speed2={speed1}  tripdt2={tripdt1} 
+*
+* Model of a 74HC123A derived  from SGS-Thomson data sheet.
+* Helmut Sennewald, 13.9.2002
+A4 DHIGH 0 N014 0 N004 N006 N005 0 DFLOP   tripdt={tripdt1}  td={td5}
+*A3 0 N015 N016 N023 0  N014 0 0 OR  tripdt={tripdt1}  td={td5}
+A3 0 N015 N016 0 0     0 N014 0  OR  tripdt={tripdt1}  td={td5}
+A1 Ai 0 0 0 0          0 N015 0  SCHMITT  Vt=0.46 Vh=0.02  tripdt={tripdt1}  td={td5}
+A2 Bi 0 0 0 0          N016 0 0  SCHMITT  Vt=0.46 Vh=0.02  tripdt={tripdt1}  td={td5}
+A6 0 N008 0 N006 0     N007 0 0  AND  tripdt={tripdt1}  td={td5}
+A5 0 N009 0 N007 0     N008 0 0  AND  tripdt={tripdt1}  td={td5}
+A14 0 N003 0 N021 0    N004 0 0  AND  tripdt={tripdt1}  td={td2}
+A13 0 N003 0 N005 0    0 N030 0  AND  tripdt={tripdt1}  td={td5}
+A12 N005 0 0 0 0       N012 0 0  BUF  tripdt={tripdt1}  td={td5}
+A21 0 N010 0 N011 0    0 N009 0  OR  tripdt={tripdt1}  td={td5}
+A22 0 N005 0 N007 0    N010 0 0  OR  tripdt={tripdt1}  td={td5}
+A11 0 N013 0 N012 0    0 N003 0  OR  tripdt={tripdt1}  td={td5}
+A7 0 N007 0 N018 0     QNi Qi 0  AND  tripdt={tripdt1}  td={td5}
+A20 RCi 0 0 0 0        N011 0 0  SCHMITT  tripdt={tripdt1}  td={td5}  Vt=0.65 Vh=0.2m 
+A10 RCi 0 0 0 0        0 N013 0  SCHMITT  tripdt={tripdt1}  td={td5}  Vt=0.1 Vh=0.2m 
+A32 0 N006 0 N021 0    N022 0 0  OR  tripdt={tripdt1}  td={td5}
+A31 0 N022 0 N023 0    N021 0 0  OR  tripdt={tripdt1}  td={td2}
+A33 N021 0 0 0 0       N019 0 0  BUF  tripdt={tripdt1}  td={td5}
+A30 CLRi 0 0 0 0       N023 0 0  BUF  tripdt={tripdt1}  td={td5}
+A34 0 N007 0 N006 0    N020 0 0  AND  tripdt={tripdt1}  td={td5}
+A35 0 N020 0 N018 0    N017 0 0  OR  tripdt={tripdt1}  td={td5}
+A36 0 N017 0 N019 0    N018 0 0  OR  tripdt={tripdt1}  td={td5}
+M10 RC N001 VGND VGND NMOS1
+M30 RC N024 VDD VDD PMOS1
+D1 RC VDD DIO1
+D2 VGND RC DIO1
+R10 N001 N002 100
+R30 N024 N029 100
+R3 CGND VGND 1
+E4 RCi 0 RC VGND {egain}
+E7 N029 VDD N018 0 {VDD1}
+E8 N002 VGND N030 0 {VDD1}
+V1 DHIGH 0 DC 1
+.MODEL NMOS1 NMOS ( LEVEL=3  W=500e-6  L=4E-6  VTO=1
++ VMAX=1E6  RS=10  RD=10  CJ=0.002  MJ=0.4 
++THETA=1E-6 ETA=0.01  KAPPA=2.2)
+.MODEL PMOS1 PMOS ( LEVEL=3  W=500e-6  L=4E-6  VTO=-1 
++ VMAX=1E6  RS=10  RD=10  CJ=0.002  MJ=0.4 
++THETA=1E-6 ETA=0.01  KAPPA=2.2)
+.MODEL DIO1 D (IS=10p RS=10 N=1.75 M=0.4 Cjo=6p TT=20n)
+*
+XOUT0  Qi  Q   VDD VGND  CD40_OUT_1X  VDD2={VDD1} speed2={speed1}  tripdt2={tripdt1}
+XOUT1  QNi QN  VDD VGND  CD40_OUT_1X  VDD2={VDD1} speed2={speed1}  tripdt2={tripdt1}
+.ends
+*
+*
