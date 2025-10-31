@@ -142,7 +142,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -10831,18 +10830,6 @@
 			(layer "F.Fab")
 			(uuid "0b68fc46-1a01-47ba-b6fc-a33c7525b103")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8af77800-57ad-468b-921e-c8e81d6c0489")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
 		(pad "1" smd rect
 			(at -1.938 -0.975 270)
 			(size 0.45 1.075)
@@ -12879,7 +12866,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at -2 0 180)
+			(at -1.6784 0.0332 180)
 			(layer "B.SilkS")
 			(uuid "59feec7a-d179-4f2c-a6ee-12b664908632")
 			(effects
@@ -14280,7 +14267,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at -2 0 180)
+			(at -1.8286 -0.0656 180)
 			(layer "B.SilkS")
 			(uuid "d5ce31ce-5122-4bd2-b7bb-229c8556ce76")
 			(effects
@@ -17771,19 +17758,6 @@
 			(layer "B.Fab")
 			(uuid "383de622-fa38-44cd-8fc2-89822a434ea5")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "23bbfc7a-06eb-4d08-afa3-a6765adacdcf")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-				(justify mirror)
-			)
-		)
 		(pad "1" smd rect
 			(at -1.5 1.975 90)
 			(size 0.6 1.55)
@@ -17869,7 +17843,7 @@
 		(descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U2"
-			(at 4.2 -0.25 180)
+			(at 3.7768 -0.166 180)
 			(layer "B.SilkS")
 			(uuid "4e4e799d-44d4-4155-9b05-a24ca6391245")
 			(effects
@@ -21985,7 +21959,7 @@
 		)
 	)
 	(gr_text "SAFECAST.ORG"
-		(at 156.27 57.925 0)
+		(at 156.5416 58.547 0)
 		(layer "B.SilkS")
 		(uuid "4a8a2b27-f599-462f-803d-d79e790af018")
 		(effects
@@ -22045,7 +22019,7 @@
 		)
 	)
 	(gr_text "SafePulse\nHigh Voltage\nGeiger Muller \nPower Supply\nVer 2.0.0\n01 Nov 2025"
-		(at 156.17 63.125 0)
+		(at 160.8596 63.4238 0)
 		(layer "B.SilkS")
 		(uuid "f21c9d8d-ca94-42ef-854f-340e2ed32c44")
 		(effects
@@ -22053,7 +22027,7 @@
 				(size 0.85 0.85)
 				(thickness 0.1)
 			)
-			(justify mirror)
+			(justify left mirror)
 		)
 	)
 	(gr_text "HIGH\nVOLTAGE\n500V !!"
