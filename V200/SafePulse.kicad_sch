@@ -4995,6 +4995,16 @@
 		)
 		(uuid "6587a043-2880-403c-bfb5-25ca93411133")
 	)
+	(text "Anode"
+		(exclude_from_sim no)
+		(at 270.51 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6a993e00-9177-42e7-ad70-6180d3d87075")
+	)
 	(text "SDA"
 		(exclude_from_sim no)
 		(at 15.2089 91.8464 0)
@@ -5005,6 +5015,16 @@
 			)
 		)
 		(uuid "a131db44-9849-4fff-b33b-d0ae4005a9fc")
+	)
+	(text "Anode"
+		(exclude_from_sim no)
+		(at 278.765 94.615 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8942796-8b2d-4ce5-9e11-3c42951f9816")
 	)
 	(junction
 		(at 257.81 73.025)
@@ -5323,12 +5343,6 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "c76d4423-ef1b-4a6f-8176-33d65f2877bb")
-	)
-	(junction
-		(at 278.765 90.17)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "c7af8405-da2e-4a34-b9b8-518f342f8995")
 	)
 	(junction
 		(at 101.6 142.24)
@@ -5856,6 +5870,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 95.25) (xy 270.51 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24133d22-551a-4c48-99fc-39601e9038d5")
+	)
+	(wire
+		(pts
 			(xy 100.33 73.025) (xy 100.33 90.805)
 		)
 		(stroke
@@ -5863,6 +5887,16 @@
 			(type solid)
 		)
 		(uuid "24b4a571-8864-4337-a241-318cf38f8516")
+	)
+	(wire
+		(pts
+			(xy 270.51 95.25) (xy 270.51 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2538482a-42fd-4d1c-8d74-dac8923e9e7c")
 	)
 	(wire
 		(pts
@@ -6186,26 +6220,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.765 84.455) (xy 278.765 90.17)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "47429b1b-9fe0-45fe-8bee-f6b9bab9518e")
-	)
-	(wire
-		(pts
-			(xy 278.765 90.17) (xy 278.765 93.345)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "47429b1b-9fe0-45fe-8bee-f6b9bab9518f")
-	)
-	(wire
-		(pts
 			(xy 161.29 78.105) (xy 161.29 84.455)
 		)
 		(stroke
@@ -6286,7 +6300,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 118.745) (xy 278.765 118.745)
+			(xy 274.32 118.745) (xy 279.4 118.745)
 		)
 		(stroke
 			(width 0)
@@ -6626,6 +6640,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 84.455) (xy 250.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6a94ef60-51a0-490c-94d4-5c3a5585ee36")
+	)
+	(wire
+		(pts
 			(xy 24.765 127) (xy 24.765 125.095)
 		)
 		(stroke
@@ -6916,6 +6940,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 84.455) (xy 262.255 84.455)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "8b611726-08b3-4567-9af0-9c1e294c15a3")
+	)
+	(wire
+		(pts
 			(xy 73.66 147.32) (xy 68.58 147.32)
 		)
 		(stroke
@@ -7026,26 +7060,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 90.17) (xy 278.765 90.17)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "965dcd70-5214-46b9-b836-9d0340b9302b")
-	)
-	(wire
-		(pts
-			(xy 271.78 93.345) (xy 271.78 90.17)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "965dcd70-5214-46b9-b836-9d0340b9302c")
-	)
-	(wire
-		(pts
 			(xy 60.96 22.86) (xy 60.96 25.4)
 		)
 		(stroke
@@ -7063,6 +7077,16 @@
 			(type default)
 		)
 		(uuid "97f67684-821e-43af-8262-1334cf859b92")
+	)
+	(wire
+		(pts
+			(xy 250.19 95.25) (xy 256.54 95.25)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "981b4c92-92e0-4fc6-9e41-807db8953109")
 	)
 	(wire
 		(pts
@@ -7116,7 +7140,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.765 118.745) (xy 278.765 114.935)
+			(xy 279.4 118.745) (xy 279.4 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7176,16 +7200,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 84.455) (xy 254 84.455)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "a453df9f-cc7a-4759-818a-30afea61c49c")
-	)
-	(wire
-		(pts
 			(xy 116.84 184.15) (xy 142.24 184.15)
 		)
 		(stroke
@@ -7233,6 +7247,16 @@
 			(type solid)
 		)
 		(uuid "a6cbae93-d3cb-4cef-a00d-3a8e3b4d7818")
+	)
+	(wire
+		(pts
+			(xy 269.875 84.455) (xy 279.4 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79d1115-7242-416e-98a9-b03936b42571")
 	)
 	(wire
 		(pts
@@ -7863,16 +7887,6 @@
 			(type default)
 		)
 		(uuid "e46e7202-2b0b-4183-86c4-5dbf6be18540")
-	)
-	(wire
-		(pts
-			(xy 261.62 84.455) (xy 278.765 84.455)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "e518c3d6-8715-4722-baef-01a736b8be5d")
 	)
 	(wire
 		(pts
@@ -13194,7 +13208,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 257.81 84.455 90)
+		(at 266.065 84.455 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13202,7 +13216,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006010b6b0")
 		(property "Reference" "R1"
-			(at 259.715 79.197 90)
+			(at 266.065 79.375 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13210,7 +13224,7 @@
 			)
 		)
 		(property "Value" "4.99M"
-			(at 259.715 81.509 90)
+			(at 266.065 81.915 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13218,7 +13232,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 257.81 86.233 90)
+			(at 266.065 86.233 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13227,7 +13241,7 @@
 			)
 		)
 		(property "Datasheet" "https://d1d2qsbl8m0m72.cloudfront.net/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf"
-			(at 257.81 84.455 0)
+			(at 266.065 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13236,7 +13250,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 84.455 0)
+			(at 266.065 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13245,7 +13259,7 @@
 			)
 		)
 		(property "Digikey" "RHM4.99MAICT-ND"
-			(at 257.81 84.455 90)
+			(at 266.065 84.455 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13254,7 +13268,7 @@
 			)
 		)
 		(property "LCSC Part #" "C488845"
-			(at 257.81 84.455 0)
+			(at 266.065 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13263,7 +13277,7 @@
 			)
 		)
 		(property "LCSC" "C488845"
-			(at 259.715 79.197 0)
+			(at 267.97 79.197 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14706,7 +14720,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 271.78 95.885 180)
+		(at 279.4 86.995 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14714,7 +14728,7 @@
 		(dnp no)
 		(uuid "1bb128b1-2936-4930-949d-3657cdcf55a0")
 		(property "Reference" "H4"
-			(at 269.24 97.161 0)
+			(at 276.86 88.271 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14723,8 +14737,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Anode"
-			(at 274.32 100.578 0)
+		(property "Value" "LND7317"
+			(at 282.575 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14733,7 +14747,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded"
-			(at 271.78 95.885 0)
+			(at 279.4 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14742,7 +14756,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 271.78 95.885 0)
+			(at 279.4 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14751,7 +14765,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.78 95.885 0)
+			(at 279.4 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15227,6 +15241,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 260.35 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f86808c-9542-4a46-ba31-74b7118c3310")
+		(property "Reference" "R2"
+			(at 260.35 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10M"
+			(at 260.35 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 260.35 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://d1d2qsbl8m0m72.cloudfront.net/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf"
+			(at 260.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "RHM4.99MAICT-ND"
+			(at 260.35 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C275643"
+			(at 260.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C275643"
+			(at 262.255 89.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a8b9534-e25d-4aba-a9ce-af0ba36a136e")
+		)
+		(pin "2"
+			(uuid "d05a1e11-ed49-4da8-91fd-3e938068b348")
+		)
+		(instances
+			(project "SafePulse"
+				(path "/f260d189-94b1-4000-a377-01efa90805d9"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:MCP6L01Ux-xOT")
 		(at 49.53 132.08 0)
 		(unit 1)
@@ -15655,7 +15763,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 278.765 112.395 0)
+		(at 279.4 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15663,7 +15771,7 @@
 		(dnp no)
 		(uuid "5534fd63-59cd-4e2a-9176-13a9cbe98172")
 		(property "Reference" "H1"
-			(at 281.305 111.119 0)
+			(at 281.94 113.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15673,7 +15781,7 @@
 			)
 		)
 		(property "Value" "Cathode"
-			(at 276.225 107.702 0)
+			(at 276.225 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15682,7 +15790,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.4mm_Beaded"
-			(at 278.765 112.395 0)
+			(at 279.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15691,7 +15799,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 278.765 112.395 0)
+			(at 279.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15700,7 +15808,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 278.765 112.395 0)
+			(at 279.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17363,7 +17471,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 278.765 95.885 180)
+		(at 270.51 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17371,7 +17479,7 @@
 		(dnp no)
 		(uuid "8e6f414f-5055-45b6-9d50-4d4f2e754637")
 		(property "Reference" "H2"
-			(at 276.225 97.161 0)
+			(at 267.97 101.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17380,8 +17488,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Anode"
-			(at 281.305 100.578 0)
+		(property "Value" "LND712"
+			(at 274.955 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17390,7 +17498,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded"
-			(at 278.765 95.885 0)
+			(at 270.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17399,7 +17507,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 278.765 95.885 0)
+			(at 270.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17408,7 +17516,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 278.765 95.885 0)
+			(at 270.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
