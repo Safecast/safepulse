@@ -3334,7 +3334,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "FB2"
-			(at 2.06 0.09 180)
+			(at 2 0.09 180)
 			(layer "F.SilkS")
 			(uuid "275de313-e7f7-4449-9bba-883c2d6cb843")
 			(effects
@@ -5414,7 +5414,7 @@
 		(property "Reference" "J1"
 			(at 1.44 -1.33 180)
 			(layer "F.SilkS")
-			(uuid "7eb183ce-83ee-4350-a9a6-73f2a73e4e69")
+			(uuid "1ff2e5ea-834f-4ed8-b11d-a1656e625fb0")
 			(effects
 				(font
 					(size 1 1)
@@ -5426,7 +5426,7 @@
 			(at 0 12.49 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "127d224b-f30c-43e7-a0d2-b491b8f16de9")
+			(uuid "6669db16-ada7-4485-ae7a-9257f5100539")
 			(effects
 				(font
 					(size 1 1)
@@ -5438,7 +5438,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dbee2920-afb0-4804-b2ab-b1fa09fdf740")
+			(uuid "dcf38f12-69be-4e43-9695-7e1efdae2097")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,7 +5450,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d2c1d3b-78e4-4f28-aac9-cf7ed6ecf6f9")
+			(uuid "83669fd4-ad99-47d4-8636-f42e0ee75352")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,6 +5681,7 @@
 		)
 		(embedded_fonts no)
 		(model "/home/rob/Documents/kicad-nightly/3dmodels/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12667,7 +12668,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C23"
-			(at 0 1.25 180)
+			(at 0 1.155 180)
 			(layer "B.SilkS")
 			(uuid "bbcf6415-75ff-44fc-bd52-388c2c120a30")
 			(effects
@@ -13765,7 +13766,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R22"
-			(at 1.9185 -0.015 0)
+			(at 2 -0.015 0)
 			(layer "B.SilkS")
 			(uuid "cd91031d-d6ff-4eb3-bac7-0a49dc0dd5e4")
 			(effects
@@ -14521,7 +14522,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C22"
-			(at 1.9185 -0.07 0)
+			(at 1.86 -0.07 0)
 			(layer "B.SilkS")
 			(uuid "3de025ff-c0c4-43e1-b568-c14b83f6e7f8")
 			(effects
@@ -20086,7 +20087,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R19"
-			(at 0 -1.25 180)
+			(at 0 -1.155 180)
 			(layer "B.SilkS")
 			(uuid "33a2e41c-1874-43e4-82f8-77247a120608")
 			(effects
@@ -20936,7 +20937,7 @@
 		)
 	)
 	(gr_text "SCL"
-		(at 136.12 77.2414 0)
+		(at 136.12 77.425 0)
 		(layer "B.SilkS")
 		(uuid "3526b444-48bc-4b32-b495-3a253eb67733")
 		(effects
@@ -20948,7 +20949,7 @@
 		)
 	)
 	(gr_text "SAFECAST.ORG"
-		(at 156.2368 58.1914 0)
+		(at 156.3892 58.4962 0)
 		(layer "B.SilkS")
 		(uuid "4a8a2b27-f599-462f-803d-d79e790af018")
 		(effects
@@ -20972,7 +20973,7 @@
 		)
 	)
 	(gr_text "SafePulse\nHigh Voltage\nGeiger Muller \nPower Supply\nVer 2.0.0\n02 Nov 2025"
-		(at 161.266 64.5414 0)
+		(at 161.266 64.3382 0)
 		(layer "B.SilkS")
 		(uuid "73784a4c-9e48-4cbc-b1ef-c482f1456521")
 		(effects
@@ -20984,7 +20985,7 @@
 		)
 	)
 	(gr_text "SAFEPULSE V2.0.0\n"
-		(at 130.87 77.365 0)
+		(at 130.87 77.425 0)
 		(layer "B.SilkS")
 		(uuid "7ce08191-9205-414e-9c50-a89041274ec3")
 		(effects
@@ -20996,7 +20997,7 @@
 		)
 	)
 	(gr_text "SDA"
-		(at 138.8124 77.2922 0)
+		(at 138.8124 77.425 0)
 		(layer "B.SilkS")
 		(uuid "a81f9eb5-592b-44dd-b8c3-7acc2d5c4251")
 		(effects
