@@ -9760,7 +9760,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D2"
-			(at -2.055 0.05 0)
+			(at -2.1746 0.05 0)
 			(layer "F.SilkS")
 			(uuid "f104d78b-0158-40a1-ac41-d3f9fff8d603")
 			(effects
@@ -11174,7 +11174,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 1.9 0 0)
+			(at 2.0196 0 0)
 			(layer "F.SilkS")
 			(uuid "08d843e8-e02c-4906-b936-4257451f3d45")
 			(effects
@@ -12874,7 +12874,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C23"
-			(at 0 1.25 180)
+			(at 0 1.1746 180)
 			(layer "B.SilkS")
 			(uuid "bbcf6415-75ff-44fc-bd52-388c2c120a30")
 			(effects
@@ -13107,7 +13107,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at -1.7292 -0.0176 180)
+			(at -1.6276 0.0176 180)
 			(layer "B.SilkS")
 			(uuid "59feec7a-d179-4f2c-a6ee-12b664908632")
 			(effects
@@ -13972,7 +13972,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R22"
-			(at 1.9185 -0.015 0)
+			(at 2.0196 -0.015 0)
 			(layer "B.SilkS")
 			(uuid "cd91031d-d6ff-4eb3-bac7-0a49dc0dd5e4")
 			(effects
@@ -14728,7 +14728,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C22"
-			(at 1.9185 -0.07 0)
+			(at 1.8796 -0.07 0)
 			(layer "B.SilkS")
 			(uuid "3de025ff-c0c4-43e1-b568-c14b83f6e7f8")
 			(effects
@@ -21338,7 +21338,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R19"
-			(at 0 -1.25 180)
+			(at 0 -1.1746 180)
 			(layer "B.SilkS")
 			(uuid "33a2e41c-1874-43e4-82f8-77247a120608")
 			(effects
@@ -22110,7 +22110,7 @@
 		(uuid "e3c16099-023a-4389-bfce-cbb1514b8ad0")
 	)
 	(gr_text "SCL\n"
-		(at 136.2216 77.2922 0)
+		(at 136.3232 77.4446 0)
 		(layer "F.SilkS")
 		(uuid "27617e19-ed59-4c25-aeaa-763bac9e9aa2")
 		(effects
@@ -22132,7 +22132,7 @@
 		)
 	)
 	(gr_text "SDA\n"
-		(at 138.77 77.325 0)
+		(at 138.8716 77.4446 0)
 		(layer "F.SilkS")
 		(uuid "473a321c-1a17-4c33-a501-7aaa835cc008")
 		(effects
@@ -22166,7 +22166,7 @@
 		)
 	)
 	(gr_text "Pulse"
-		(at 131.07 77.325 0)
+		(at 131.07 77.4446 0)
 		(layer "F.SilkS")
 		(uuid "7d062011-347f-4f80-8f0e-ca41c91d854b")
 		(effects
@@ -22177,7 +22177,7 @@
 		)
 	)
 	(gr_text "GND\n"
-		(at 133.575 77.325 0)
+		(at 133.575 77.4446 0)
 		(layer "F.SilkS")
 		(uuid "91f6b835-1c58-49c8-8a8a-c85eab84026b")
 		(effects
@@ -22200,7 +22200,7 @@
 		)
 	)
 	(gr_text "SCL"
-		(at 136.12 77.2414 0)
+		(at 136.12 77.4446 0)
 		(layer "B.SilkS")
 		(uuid "3526b444-48bc-4b32-b495-3a253eb67733")
 		(effects
@@ -22212,7 +22212,7 @@
 		)
 	)
 	(gr_text "SAFECAST.ORG"
-		(at 156.3892 58.3946 0)
+		(at 156.49 58.265 0)
 		(layer "B.SilkS")
 		(uuid "4a8a2b27-f599-462f-803d-d79e790af018")
 		(effects
@@ -22236,7 +22236,7 @@
 		)
 	)
 	(gr_text "SAFEPULSE V2.0.0\n"
-		(at 130.87 77.365 0)
+		(at 130.9716 77.4446 0)
 		(layer "B.SilkS")
 		(uuid "7ce08191-9205-414e-9c50-a89041274ec3")
 		(effects
@@ -22248,7 +22248,7 @@
 		)
 	)
 	(gr_text "SDA"
-		(at 138.8124 77.2922 0)
+		(at 138.8124 77.4446 0)
 		(layer "B.SilkS")
 		(uuid "a81f9eb5-592b-44dd-b8c3-7acc2d5c4251")
 		(effects
