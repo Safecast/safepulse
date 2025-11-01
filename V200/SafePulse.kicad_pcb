@@ -20971,6 +20971,18 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "SafePulse\nHigh Voltage\nGeiger Muller \nPower Supply\nVer 2.0.0\n02 Nov 2025"
+		(at 161.266 64.5414 0)
+		(layer "B.SilkS")
+		(uuid "73784a4c-9e48-4cbc-b1ef-c482f1456521")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+			(justify left mirror)
+		)
+	)
 	(gr_text "SAFEPULSE V2.0.0\n"
 		(at 130.87 77.365 0)
 		(layer "B.SilkS")
