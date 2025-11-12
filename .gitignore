@@ -1,0 +1,11 @@
+# KiCad backup files
+*-backups/
+SafePulse-backups/
+
+# Production/fabrication files (only root level, not KiCad production files)
+/production/
+fabrication-toolkit-options.json
+
+# Ignore backup files in KiCad production folder
+Kicad files/Safepulse/production/*-backups/
+Kicad files/Safepulse/production/**/*-backups/
