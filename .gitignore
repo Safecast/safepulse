@@ -7,5 +7,5 @@ SafePulse-backups/
 fabrication-toolkit-options.json
 
 # Ignore backup files in KiCad production folder
+Kicad files/Safepulse/production/backups/
 Kicad files/Safepulse/production/*-backups/
-Kicad files/Safepulse/production/**/*-backups/
